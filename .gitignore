@@ -9,3 +9,7 @@ config/backups/
 *.swp
 *.swo
 .env
+*.db
+*.db-shm
+*.db-wal
+*.metadb
