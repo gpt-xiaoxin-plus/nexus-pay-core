@@ -1,0 +1,121 @@
+{
+  "run_id": "195efcd0b326",
+  "mode": "offline_mock",
+  "dataset": "config/protocol_offline_dataset.json",
+  "started_at": "2026-05-28T16:35:11Z",
+  "validations": [
+    {
+      "id": "login_probe",
+      "label": "Login/registration probe",
+      "ok": true,
+      "present_paths": [
+        "/goto-auth/login/methods"
+      ],
+      "missing_paths": []
+    },
+    {
+      "id": "signup_otp_methods",
+      "label": "Signup OTP methods",
+      "ok": true,
+      "present_paths": [
+        "/cvs/v1/methods"
+      ],
+      "missing_paths": []
+    },
+    {
+      "id": "signup_otp_initiate",
+      "label": "Signup OTP initiate",
+      "ok": true,
+      "present_paths": [
+        "/cvs/v1/initiate"
+      ],
+      "missing_paths": []
+    },
+    {
+      "id": "signup_otp_verify",
+      "label": "Signup OTP verify",
+      "ok": true,
+      "present_paths": [
+        "/cvs/v1/verify"
+      ],
+      "missing_paths": []
+    },
+    {
+      "id": "account_create",
+      "label": "Account create",
+      "ok": true,
+      "present_paths": [
+        "/v7/customers/signup"
+      ],
+      "missing_paths": []
+    },
+    {
+      "id": "token_exchange",
+      "label": "Token exchange",
+      "ok": true,
+      "present_paths": [
+        "/goto-auth/token"
+      ],
+      "missing_paths": []
+    },
+    {
+      "id": "pin_setup",
+      "label": "PIN setup",
+      "ok": true,
+      "present_paths": [
+        "/api/v2/users/pins/setup/tokens"
+      ],
+      "missing_paths": []
+    },
+    {
+      "id": "profile_check",
+      "label": "Profile check",
+      "ok": true,
+      "present_paths": [
+        "/v1/users/profile"
+      ],
+      "missing_paths": []
+    },
+    {
+      "id": "balance_poll",
+      "label": "Balance poll",
+      "ok": true,
+      "present_paths": [
+        "/v1/payment-options/balances",
+        "/v1/user/wallet-card/balance"
+      ],
+      "missing_paths": []
+    }
+  ],
+  "success": true,
+  "phases": [
+    {
+      "phase": "register",
+      "status": "ok",
+      "account_id": "offline-account-195efcd0b326",
+      "phone": "+620000000000",
+      "otp": "<mocked>",
+      "pin": "<mocked>"
+    },
+    {
+      "phase": "balance_poll",
+      "status": "ok",
+      "balance_rp": 10000,
+      "source": "offline_capture_shape"
+    },
+    {
+      "phase": "job_claim",
+      "status": "ok",
+      "job_id": "offline-job-195efcd0b326",
+      "provider": "gopay",
+      "midtrans_url": "https://app.midtrans.com/snap/v4/redirection/af3cf19a-6c9a-5586-9def-4ee95df51317"
+    },
+    {
+      "phase": "payment",
+      "status": "ok",
+      "transaction_status": "settlement",
+      "detail": "offline simulated payment completed"
+    }
+  ],
+  "completed_at": "2026-05-28T16:35:11Z"
+}

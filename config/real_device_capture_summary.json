@@ -1,0 +1,5700 @@
+{
+  "total_items": 271,
+  "total_endpoints": 46,
+  "hosts": {
+    "stpphi.inapps.appsflyersdk.com": 190,
+    "customer.gopayapi.com": 35,
+    "api.gojekapi.com": 14,
+    "accounts.goto-products.com": 9,
+    "i.gojekapi.com": 7,
+    "stpphi.launches.appsflyersdk.com": 5,
+    "gopay-raccoon.gojekapi.com": 3,
+    "api.ipify.org": 2,
+    "crashlyticsreports-pa.googleapis.com": 2,
+    "firebaselogging-pa.googleapis.com": 2,
+    "firebaseremoteconfig.googleapis.com": 1,
+    "gateway.paylater.gofin.co.id": 1
+  },
+  "endpoints": [
+    {
+      "endpoint": "POST stpphi.inapps.appsflyersdk.com/api/v6.17/androidevent",
+      "method": "POST",
+      "host": "stpphi.inapps.appsflyersdk.com",
+      "path": "/api/v6.17/androidevent",
+      "count": 190,
+      "statuses": {
+        "200": 190
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "User-Agent"
+      ],
+      "response_header_names": [
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Server",
+        "Via",
+        "X-Amz-Cf-Id",
+        "X-Amz-Cf-Pop",
+        "X-Cache"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1784
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2040
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2264
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1928
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2120
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2072
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2088
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1944
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2152
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2056
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1768
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2248
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2024
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2136
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2104
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1992
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2008
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1976
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1960
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1832
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1896
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1816
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1848
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2296
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2312
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2328
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2488
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2440
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2424
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2520
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2648
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2408
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2664
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2536
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2600
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1864
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1880
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2392
+        },
+        {
+          "kind": "text",
+          "bytes": 2056
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "text/plain",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v1/users/security-meter",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/users/security-meter",
+      "count": 8,
+      "statuses": {
+        "200": 8
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-sessionid",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-correlation-id",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "color_code": "str",
+              "fields": [
+                {
+                  "evaluated": "bool",
+                  "key": "str",
+                  "priority": "int",
+                  "weightage": "int"
+                }
+              ],
+              "security_aware": [
+                {
+                  "bg_color": "str",
+                  "deeplink": "str",
+                  "description": "str",
+                  "icon": "str",
+                  "security_aware_identifier": "str",
+                  "title": "str",
+                  "title_homepage": "str"
+                }
+              ],
+              "total_strength": "int"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST stpphi.launches.appsflyersdk.com/api/v6.17/androidevent",
+      "method": "POST",
+      "host": "stpphi.launches.appsflyersdk.com",
+      "path": "/api/v6.17/androidevent",
+      "count": 5,
+      "statuses": {
+        "200": 5
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "User-Agent"
+      ],
+      "response_header_names": [
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Server",
+        "Via",
+        "X-Amz-Cf-Id",
+        "X-Amz-Cf-Pop",
+        "X-Cache"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1896
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1912
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "text/plain",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v1/users/profile",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/users/profile",
+      "count": 4,
+      "statuses": {
+        "200": 4
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-correlation-id",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "blocked": "bool",
+              "is_pin_setup": "bool",
+              "qr_id": "str"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST accounts.goto-products.com/cvs/v1/initiate",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/cvs/v1/initiate",
+      "count": 3,
+      "statuses": {
+        "200": 3
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "key",
+        "transaction-id",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-authsdk-version",
+        "x-cvsdk-version",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-request-id",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "RateLimit-Limit",
+        "RateLimit-Remaining",
+        "RateLimit-Reset",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "X-RateLimit-Limit-Day",
+        "X-RateLimit-Limit-Hour",
+        "X-RateLimit-Remaining-Day",
+        "X-RateLimit-Remaining-Hour",
+        "access-control-allow-credentials",
+        "access-control-allow-origin",
+        "request-id",
+        "server",
+        "transaction-id",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "str",
+            "device_verification_token_id": "null",
+            "email_address": "null",
+            "flow": "str",
+            "is_multiple_method": "null",
+            "phone_number": "str",
+            "verification_id": "str",
+            "verification_method": "str"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "null",
+            "device_verification_token_id": "null",
+            "email_address": "null",
+            "flow": "str",
+            "is_multiple_method": "null",
+            "phone_number": "null",
+            "verification_id": "str",
+            "verification_method": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "device_mapped_for_dbl": "bool",
+              "fr_token_details": {
+                "challenge_token": "str",
+                "user_token": "str"
+              },
+              "metadata": {
+                "phone": "str"
+              },
+              "otp_length": "int",
+              "otp_token": "str",
+              "retry_timer_in_seconds": [
+                "int"
+              ]
+            },
+            "success": "bool"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "device_mapped_for_dbl": "bool",
+              "fr_token_details": {
+                "challenge_token": "str",
+                "user_token": "str"
+              },
+              "metadata": {
+                "phone": "str",
+                "whatsapp_deeplink": "str"
+              },
+              "otp_length": "int",
+              "otp_token": "str",
+              "retry_timer_in_seconds": [
+                "int"
+              ]
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET api.gojekapi.com/gojek/v2/customer",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/gojek/v2/customer",
+      "count": 3,
+      "statuses": {
+        "401": 1,
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "WWW-Authenticate",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Response-Latency",
+        "X-Kong-Upstream-Latency",
+        "request-id",
+        "server",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-request-id",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "message": "str"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "customer": {
+              "apple_account_linked": "bool",
+              "bio": "null",
+              "chat_id": "null",
+              "chat_token": "null",
+              "country_code": "str",
+              "created_at": "str",
+              "email": "null",
+              "email_verified": "bool",
+              "facebook_connected": "bool",
+              "google_account_linked": "bool",
+              "gopay_account_id": "str",
+              "id": "int",
+              "locale": "str",
+              "locale_selection_type": "null",
+              "name": "str",
+              "number": "str",
+              "phone": "str",
+              "profile_image_url": "null",
+              "signed_up_country": "str"
+            },
+            "message": "str",
+            "status": "str"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST api.gojekapi.com/v7/customers/signup",
+      "method": "POST",
+      "host": "api.gojekapi.com",
+      "path": "/v7/customers/signup",
+      "count": 3,
+      "statuses": {
+        "400": 2,
+        "201": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "verification-token",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "request-id",
+        "server",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-request-id",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_name": "str",
+            "client_secret": "str",
+            "data": {
+              "email": "str",
+              "name": "str",
+              "onboarding_partner": "str",
+              "phone": "str",
+              "signed_up_country": "str"
+            }
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "null",
+            "errors": [
+              {
+                "code": "str",
+                "message": "str",
+                "message_severity": "str",
+                "message_title": "str"
+              }
+            ],
+            "success": "bool"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "access_token": "str",
+              "customer": {
+                "active": "bool",
+                "bio": "null",
+                "blacklisted": "bool",
+                "chat_id": "null",
+                "chat_token": "null",
+                "country_code": "str",
+                "created_at": "str",
+                "created_by": "str",
+                "dob": "null",
+                "email": "null",
+                "email_verified": "bool",
+                "facebook_connected": "bool",
+                "gopay_account_id": "null",
+                "id": "int",
+                "is_driver": "null",
+                "locale": "str",
+                "locale_selection_type": "null",
+                "name": "str",
+                "number": "str",
+                "onboarding_partner": "str",
+                "phone": "str",
+                "phone_verified": "bool",
+                "profile_image_url": "null",
+                "sex": "null",
+                "signed_up_country": "str",
+                "toko_id": "null",
+                "updated_at": "str",
+                "wallet_id": "null"
+              },
+              "expires_in": "int",
+              "refresh_token": "str",
+              "resource_owner_id": "int",
+              "resource_owner_type": "str",
+              "scopes": "str"
+            },
+            "errors": "null",
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET gopay-raccoon.gojekapi.com/api/v1/events",
+      "method": "GET",
+      "host": "gopay-raccoon.gojekapi.com",
+      "path": "/api/v1/events",
+      "count": 3,
+      "statuses": {
+        "101": 3
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "authorization",
+        "cache-control",
+        "connection",
+        "host",
+        "sec-websocket-key",
+        "sec-websocket-version",
+        "upgrade",
+        "user-agent",
+        "x-uniqueid"
+      ],
+      "response_header_names": [
+        "connection",
+        "date",
+        "sec-websocket-accept",
+        "server",
+        "upgrade"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ]
+    },
+    {
+      "endpoint": "POST accounts.goto-products.com/cvs/v1/methods",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/cvs/v1/methods",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "transaction-id",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-authsdk-version",
+        "x-cvsdk-version",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-request-id",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "RateLimit-Limit",
+        "RateLimit-Remaining",
+        "RateLimit-Reset",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "X-RateLimit-Limit-Day",
+        "X-RateLimit-Limit-Hour",
+        "X-RateLimit-Remaining-Day",
+        "X-RateLimit-Remaining-Hour",
+        "access-control-allow-credentials",
+        "access-control-allow-origin",
+        "request-id",
+        "server",
+        "transaction-id",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "str",
+            "device_verification_token_id": "null",
+            "email_address": "null",
+            "flow": "str",
+            "phone_number": "str"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "null",
+            "device_verification_token_id": "null",
+            "email_address": "null",
+            "flow": "str",
+            "phone_number": "null"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "default_method": "str",
+              "methods": [
+                "str"
+              ],
+              "verification_id": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST accounts.goto-products.com/cvs/v1/verify",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/cvs/v1/verify",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "transaction-id",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-authsdk-version",
+        "x-cvsdk-version",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-request-id",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "access-control-allow-credentials",
+        "access-control-allow-origin",
+        "request-id",
+        "server",
+        "transaction-id",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "data": {
+              "otp": "str",
+              "otp_token": "str"
+            },
+            "flow": "str",
+            "verification_id": "str",
+            "verification_method": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "verification_token": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET api.gojekapi.com/courier/v1/token",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/courier/v1/token",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "request-id",
+        "server",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "broker": {
+              "host": "str",
+              "port": "int"
+            },
+            "expiry_in_sec": "int",
+            "token": "str"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET api.gojekapi.com/litmus/public/run/experiments",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/litmus/public/run/experiments",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-client-id",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-passkey",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type",
+        "x_owner_id",
+        "x_owner_type"
+      ],
+      "response_header_names": [
+        "Access-Control-Allow-Credentials",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "request-id",
+        "server",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "channel_name": "str",
+                "channel_weight": "int",
+                "correlation_id": "str",
+                "exp_id": "str",
+                "exp_type": "str",
+                "experiment": "str",
+                "properties": {
+                  "gopay_introduction_content": "str",
+                  "is_enabled": "bool"
+                },
+                "run_id": "int",
+                "unit_type": "str",
+                "variant": "str",
+                "version": "int"
+              }
+            ],
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET api.gojekapi.com/litmus/run/experiments",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/litmus/run/experiments",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-client-id",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-passkey",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Access-Control-Allow-Credentials",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "request-id",
+        "server",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "channel_name": "str",
+                "channel_weight": "int",
+                "correlation_id": "str",
+                "exp_id": "str",
+                "exp_type": "str",
+                "experiment": "str",
+                "properties": {
+                  "duration": "int"
+                },
+                "run_id": "int",
+                "unit_type": "str",
+                "variant": "str",
+                "version": "int"
+              }
+            ],
+            "errors": [],
+            "success": "bool"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "channel_name": "str",
+                "channel_weight": "int",
+                "correlation_id": "str",
+                "exp_id": "str",
+                "exp_type": "str",
+                "experiment": "str",
+                "properties": {
+                  "fab_data": "str",
+                  "should_show_fab": "bool"
+                },
+                "run_id": "int",
+                "unit_type": "str",
+                "variant": "str",
+                "version": "int"
+              }
+            ],
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET api.ipify.org/",
+      "method": "GET",
+      "host": "api.ipify.org",
+      "path": "/",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Connection",
+        "Host"
+      ],
+      "response_header_names": [
+        "CF-RAY",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Server",
+        "Vary",
+        "cf-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "text/plain",
+          "bytes": 14
+        }
+      ]
+    },
+    {
+      "endpoint": "POST crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/batchlog",
+      "method": "POST",
+      "host": "crashlyticsreports-pa.googleapis.com",
+      "path": "/v1/firelog/legacy/batchlog",
+      "count": 2,
+      "statuses": {},
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Encoding",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "User-Agent",
+        "X-Goog-Api-Key"
+      ],
+      "response_header_names": [],
+      "request_body_shapes": [
+        {
+          "kind": "text",
+          "bytes": 21817
+        },
+        {
+          "kind": "text",
+          "bytes": 21812
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v1/festivals/assets",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/festivals/assets",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "debug-id",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-appversion",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "assets": [
+                {
+                  "bubble_icon": "str",
+                  "envelopes": [
+                    {
+                      "animation_illustration": "str",
+                      "closed_envelope_img": "str",
+                      "id": "str",
+                      "lottie_animation": "str"
+                    }
+                  ],
+                  "festival_id": "str",
+                  "home_gradient_img": "str",
+                  "home_illustration": "str",
+                  "input_amount_header_img": "str",
+                  "open_envelope_gradient_img": "str"
+                }
+              ],
+              "expiry_time_in_seconds": {
+                "group_link": "int",
+                "group_receiver": "int",
+                "single_link": "int",
+                "single_receiver": "int"
+              },
+              "group_envelope_assets": {
+                "amount_configuration_assets": [
+                  {
+                    "description": "str",
+                    "display_name": "str",
+                    "icon": "str",
+                    "icon_color": "str",
+                    "minimum_amount": "int",
+                    "minimum_recipients": "int",
+                    "name": "str"
+                  }
+                ],
+                "maximum_recipients": "int"
+              }
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v1/payment-options/balances",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/payment-options/balances",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "debug-id",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-appversion",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "balance": {
+                  "currency": "str",
+                  "display_value": "str",
+                  "value": "int"
+                },
+                "country_code": "str",
+                "token": "str",
+                "type": "str"
+              }
+            ],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v1/payment-options/profiles",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/payment-options/profiles",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "debug-id",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-appversion",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "additional_details": {
+                  "group_id": "str",
+                  "kyc_name": "str",
+                  "kyc_status": "str"
+                },
+                "type": "str"
+              }
+            ],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST customer.gopayapi.com/v1/support/customer/initiate",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/support/customer/initiate",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "support-request-id",
+        "support-sdk-version",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "str",
+            "support_code": "str",
+            "support_id": "str",
+            "support_lang": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v1/users/red-badges",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/users/red-badges",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-correlation-id",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "screens": {}
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v2/users/kyc/status",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v2/users/kyc/status",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-location",
+        "x-location-accuracy",
+        "x-m1",
+        "x-onekyc-sdk-host",
+        "x-onekyc-sdk-host-appid",
+        "x-onekyc-sdk-host-version",
+        "x-onekyc-sdk-platform",
+        "x-onekyc-sdk-version",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-session-id",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "debug-id",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-appversion",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "status": "str"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog",
+      "method": "POST",
+      "host": "firebaselogging-pa.googleapis.com",
+      "path": "/v1/firelog/legacy/batchlog",
+      "count": 2,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Encoding",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "User-Agent",
+        "X-Goog-Api-Key"
+      ],
+      "response_header_names": [
+        "Alt-Svc",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Server",
+        "Vary",
+        "X-Content-Type-Options",
+        "X-Frame-Options",
+        "X-Xss-Protection"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "text",
+          "bytes": 1367
+        },
+        {
+          "kind": "text",
+          "bytes": 1589
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "logResponseDetails": [
+              {
+                "logRequestIndex": "int",
+                "responseAction": "str"
+              }
+            ],
+            "nextRequestWaitMillis": "str"
+          }
+        },
+        {
+          "kind": "empty"
+        }
+      ]
+    },
+    {
+      "endpoint": "POST accounts.goto-products.com/goto-auth/login/methods",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/goto-auth/login/methods",
+      "count": 1,
+      "statuses": {
+        "401": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "transaction-id",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-authsdk-version",
+        "x-cvsdk-version",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-request-id",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "RateLimit-Limit",
+        "RateLimit-Remaining",
+        "RateLimit-Reset",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "X-RateLimit-Limit-Day",
+        "X-RateLimit-Limit-Hour",
+        "X-RateLimit-Remaining-Day",
+        "X-RateLimit-Remaining-Hour",
+        "request-id",
+        "server",
+        "service-request-id",
+        "transaction-id",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-service-error",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "str",
+            "device_verification_token_id": "str",
+            "email": "str",
+            "phone_number": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "null",
+            "errors": [
+              {
+                "code": "str",
+                "message": "str",
+                "message_title": "str"
+              }
+            ],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST accounts.goto-products.com/goto-auth/token",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/goto-auth/token",
+      "count": 1,
+      "statuses": {
+        "201": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-authsdk-version",
+        "x-cvsdk-version",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-request-id",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "RateLimit-Limit",
+        "RateLimit-Remaining",
+        "RateLimit-Reset",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "X-RateLimit-Limit-Second",
+        "X-RateLimit-Remaining-Second",
+        "request-id",
+        "server",
+        "service-request-id",
+        "transaction-id",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "grant_type": "str",
+            "token": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "access_token": "str",
+              "flags": {
+                "device_verification_enabled": "bool",
+                "is_linking_success": "null",
+                "onetap_eligible": "bool",
+                "trusted_device_count": "int"
+              },
+              "refresh_token": "str",
+              "user_type": "str"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "PUT api.gojekapi.com/v1/devices/push_token",
+      "method": "PUT",
+      "host": "api.gojekapi.com",
+      "path": "/v1/devices/push_token",
+      "count": 1,
+      "statuses": {
+        "204": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Date",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "request-id",
+        "server",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "push_token": "str",
+            "push_token_type": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ]
+    },
+    {
+      "endpoint": "GET api.gojekapi.com/v2/chat/profile",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/v2/chat/profile",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "X-Kong-Proxy-Latency",
+        "X-Kong-Upstream-Latency",
+        "request-id",
+        "server",
+        "vary",
+        "x-envoy-upstream-service-time",
+        "x-tencent"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "id": "str"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST customer.gopayapi.com/api/v1/users/pins/allowed",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v1/users/pins/allowed",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-correlation-id",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "pin": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST customer.gopayapi.com/api/v2/consents/accept",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v2/consents/accept",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-correlation-id",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "consents": [
+              {
+                "consent_name": "str",
+                "flow": "str",
+                "user_type": "str"
+              }
+            ]
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST customer.gopayapi.com/api/v2/users/pins/setup/tokens",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v2/users/pins/setup/tokens",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "is-token-required",
+        "user-agent",
+        "verification-token",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-correlation-id",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "challenge_id": "str",
+            "client_id": "str",
+            "pin": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "token": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/bff/v1/screens/gopay-home-v3",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/bff/v1/screens/gopay-home-v3",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-correlation-id",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-sdkversion",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type",
+        "x_request_id"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-correlation-id",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "name": "str",
+              "sdkVersion": "str",
+              "sections": [
+                {
+                  "organismData": [
+                    {
+                      "organism": {
+                        "compositeGridTiles": {
+                          "gridTiles": [
+                            {
+                              "badge": "str",
+                              "darkModeImageUrl": "str",
+                              "deeplink": "str",
+                              "imageUrl": "str",
+                              "moleculeId": "str",
+                              "positionClickEvent": {
+                                "action": "str",
+                                "event": {
+                                  "data": {
+                                    "ActionDescription": "str",
+                                    "Deeplink": "str",
+                                    "Position": "str",
+                                    "screen_name": "str"
+                                  },
+                                  "name": "str"
+                                },
+                                "organismId": "str",
+                                "organismType": "str",
+                                "screenName": "str",
+                                "source": "str",
+                                "type": "str"
+                              },
+                              "ribbonImageUrl": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "title": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "type": "str",
+                              "viewEvent": {
+                                "action": "str",
+                                "deeplink": "str",
+                                "event": {
+                                  "data": {
+                                    "ActionDescription": "str",
+                                    "Deeplink": "str",
+                                    "Position": "str",
+                                    "screen_name": "str"
+                                  },
+                                  "name": "str"
+                                },
+                                "organismId": "str",
+                                "organismType": "str",
+                                "screenName": "str",
+                                "source": "str",
+                                "type": "str"
+                              }
+                            }
+                          ],
+                          "isTileExpanded": "bool",
+                          "type": "str",
+                          "viewEvent": {
+                            "action": "str",
+                            "event": {
+                              "data": {
+                                "screen_name": "str"
+                              },
+                              "name": "str"
+                            },
+                            "organismId": "str",
+                            "organismType": "str",
+                            "source": "str",
+                            "type": "str"
+                          }
+                        },
+                        "organismId": "str"
+                      },
+                      "type": "str"
+                    }
+                  ],
+                  "sectionType": "str"
+                }
+              ],
+              "variantId": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST customer.gopayapi.com/paylater/auth/partner/v1/auth/gofin-token",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/paylater/auth/partner/v1/auth/gofin-token",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "cache-control",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "referrer-policy",
+        "strict-transport-security",
+        "vary",
+        "via",
+        "x-content-type-options",
+        "x-envoy-upstream-service-time",
+        "x-frame-options",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status",
+        "x-xss-protection"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "authToken": "str",
+              "metadata": {
+                "csTrackingId": "str"
+              }
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST customer.gopayapi.com/v1/support/customer/actions",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/support/customer/actions",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "support-request-id",
+        "support-sdk-version",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "str",
+            "support_code": "str",
+            "support_id": "str",
+            "support_lang": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST customer.gopayapi.com/v1/support/customer/activity",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/support/customer/activity",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "support-request-id",
+        "support-sdk-version",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "str",
+            "support_code": "str",
+            "support_id": "str",
+            "support_lang": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST customer.gopayapi.com/v1/support/customer/session",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/support/customer/session",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "accept-language",
+        "authorization",
+        "content-type",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "support-request-id",
+        "support-sdk-version",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "str",
+            "support_code": "str",
+            "support_id": "str",
+            "support_lang": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v1/user/wallet-card/balance",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/user/wallet-card/balance",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "debug-id",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "accessory_action": {
+                "click_event": {
+                  "action": "str",
+                  "name": "str",
+                  "properties": {
+                    "currency": "str",
+                    "deeplink": "str",
+                    "is_budget_set": "str",
+                    "spends": "str",
+                    "state": "str"
+                  }
+                },
+                "deeplink": "str",
+                "hidden_text": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "highlight_text": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "left_icon": "str",
+                "right_icon": "str",
+                "text": {
+                  "en": "str",
+                  "id": "str"
+                }
+              },
+              "balance": {
+                "click_event": {
+                  "action": "str",
+                  "name": "str",
+                  "properties": {
+                    "deeplink": "str",
+                    "state": "str"
+                  }
+                },
+                "currency": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "deeplink": "str",
+                "error_cta": "null",
+                "hidden_text": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "highlight_text": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "left_icon": "null",
+                "text": {
+                  "en": "str",
+                  "id": "str"
+                }
+              },
+              "balance_visibility": "bool",
+              "secondary_balances": [
+                {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": {
+                      "deeplink": "str"
+                    }
+                  },
+                  "deeplink": "str",
+                  "hidden_text": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "highlight_text": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "secondary_text": "null",
+                  "text": {
+                    "en": "str",
+                    "id": "str"
+                  }
+                }
+              ],
+              "view_event": {
+                "action": "str",
+                "name": "str",
+                "properties": {
+                  "balance_value": "str",
+                  "coins_value": "str"
+                }
+              }
+            },
+            "errors": "null",
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v1/user/wallet-card/widget",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/user/wallet-card/widget",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "debug-id",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "background_image_url": "str",
+              "deeplink": "str",
+              "fixed_pill": "null",
+              "knobs": [
+                {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": "null"
+                  },
+                  "deeplink": "str",
+                  "icon": "str",
+                  "show_animation": "bool",
+                  "tag": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "text": {
+                    "en": "str",
+                    "id": "str"
+                  }
+                }
+              ],
+              "nav_bar": {
+                "profile_security_status": {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": "null"
+                  },
+                  "icon_url": "str",
+                  "show_middle_pill": "bool"
+                },
+                "top_left_icon": {
+                  "click_event": "null",
+                  "deeplink": "str",
+                  "icon_type": "str",
+                  "image_url": "str"
+                },
+                "top_right_icon": {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": "null"
+                  },
+                  "deeplink": "str",
+                  "image_url": "str"
+                },
+                "user_profile": {
+                  "click_event": "null",
+                  "deeplink": "str",
+                  "image_url": "str",
+                  "is_verified": "bool"
+                }
+              },
+              "pills": [
+                {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": {
+                      "InsurancePillText": "str",
+                      "IsRecommended": "str",
+                      "PillPosition": "str",
+                      "deeplink": "str"
+                    }
+                  },
+                  "deeplink": "str",
+                  "highlight_text": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "left_image": "str",
+                  "right_image": "str",
+                  "secondary_highlight_text": "null",
+                  "secondary_text": "null",
+                  "show_animation": "bool",
+                  "text": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "view_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": {
+                      "InsurancePillText": "str",
+                      "IsRecommended": "str",
+                      "PillPosition": "str"
+                    }
+                  }
+                }
+              ],
+              "view_event": {
+                "action": "str",
+                "name": "str",
+                "properties": {
+                  "BottomPillCount": "str",
+                  "BottomPillOrder": "str",
+                  "DefaultPillText": "str",
+                  "HasBeenRecommended": "str",
+                  "InsurancePillText": "str",
+                  "PinjamPillText": "str",
+                  "RecommendedBottomPillCount": "str"
+                }
+              }
+            },
+            "errors": "null",
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET customer.gopayapi.com/v2/users/cross-sells",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v2/users/cross-sells",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "user_id",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-sessionid",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "EagleId",
+        "Server",
+        "Set-Cookie",
+        "Timing-Allow-Origin",
+        "date",
+        "ratelimit-limit",
+        "ratelimit-remaining",
+        "ratelimit-reset",
+        "via",
+        "x-correlation-id",
+        "x-envoy-upstream-service-time",
+        "x-ratelimit-limit-second",
+        "x-ratelimit-remaining-second",
+        "x-site-cache-status"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "APlusCheckIn": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "BillsTransactionCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "ExpenseManagement": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "OfflineTransactionCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "PulsaTransactionCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "ScratchCard": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "SecurityStrengthMeter": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "TopUpCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "TransferCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ]
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "POST firebaseremoteconfig.googleapis.com/v1/projects/43578156263/namespaces/fireperf:fetch",
+      "method": "POST",
+      "host": "firebaseremoteconfig.googleapis.com",
+      "path": "/v1/projects/43578156263/namespaces/fireperf:fetch",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept",
+        "Accept-Encoding",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "If-None-Match",
+        "User-Agent",
+        "X-Android-Cert",
+        "X-Android-Package",
+        "X-Firebase-RC-Fetch-Type",
+        "X-Goog-Api-Key",
+        "X-Goog-Firebase-Installations-Auth",
+        "X-Google-GFE-Can-Retry"
+      ],
+      "response_header_names": [
+        "Alt-Svc",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Etag",
+        "Server",
+        "Vary",
+        "X-Content-Type-Options",
+        "X-Frame-Options",
+        "X-Xss-Protection"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "analyticsUserProperties": {},
+            "appBuild": "str",
+            "appId": "str",
+            "appInstanceId": "str",
+            "appInstanceIdToken": "str",
+            "appVersion": "str",
+            "countryCode": "str",
+            "firstOpenTime": "str",
+            "languageCode": "str",
+            "packageName": "str",
+            "platformVersion": "str",
+            "sdkVersion": "str",
+            "timeZone": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "appName": "str",
+            "entries": {
+              "fpr_disabled_android_versions": "str",
+              "fpr_disabled_ios_versions": "str",
+              "fpr_disabled_web_versions": "str",
+              "fpr_enabled": "str",
+              "fpr_experiment_app_start_ttid": "str",
+              "fpr_log_endpoint_url": "str",
+              "fpr_log_source": "str",
+              "fpr_log_transport_android_percent": "str",
+              "fpr_log_transport_ios_percent": "str",
+              "fpr_log_transport_key": "str",
+              "fpr_rl_network_request_event_count_bg": "str",
+              "fpr_rl_network_request_event_count_fg": "str",
+              "fpr_rl_time_limit_sec": "str",
+              "fpr_rl_trace_event_count_bg": "str",
+              "fpr_rl_trace_event_count_fg": "str",
+              "fpr_session_gauge_cpu_capture_frequency_bg_ms": "str",
+              "fpr_session_gauge_cpu_capture_frequency_fg_ms": "str",
+              "fpr_session_gauge_memory_capture_frequency_bg_ms": "str",
+              "fpr_session_gauge_memory_capture_frequency_fg_ms": "str",
+              "fpr_session_max_length_min": "str",
+              "fpr_vc_fragment_sampling_rate": "str",
+              "fpr_vc_network_request_sampling_rate": "str",
+              "fpr_vc_session_sampling_rate": "str",
+              "fpr_vc_trace_sampling_rate": "str"
+            },
+            "state": "str",
+            "templateVersion": "str"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET gateway.paylater.gofin.co.id/paylater-user/v2/profile",
+      "method": "GET",
+      "host": "gateway.paylater.gofin.co.id",
+      "path": "/paylater-user/v2/profile",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "Connection",
+        "accept-language",
+        "application-source",
+        "application-version",
+        "authorization",
+        "country-code",
+        "gojek-country-code",
+        "gojek-service-area",
+        "gojek-timezone",
+        "host",
+        "user-agent",
+        "x-appid",
+        "x-apptype",
+        "x-appversion",
+        "x-deviceos",
+        "x-devicetoken",
+        "x-e1",
+        "x-e2",
+        "x-help-version",
+        "x-m1",
+        "x-phonemake",
+        "x-phonemodel",
+        "x-platform",
+        "x-uniqueid",
+        "x-user-locale",
+        "x-user-type"
+      ],
+      "response_header_names": [
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Expires",
+        "Pragma",
+        "Server",
+        "Set-Cookie",
+        "Strict-Transport-Security",
+        "Vary",
+        "X-Content-Type-Options",
+        "X-Envoy-Upstream-Service-Time",
+        "X-Frame-Options",
+        "X-Xss-Protection"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "available_services": [
+                "int"
+              ],
+              "deeplink": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/0d7e9a7a-0874-409f-8c3f-450b4c6bce86_D_IdleV2_opt_lottie.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/0d7e9a7a-0874-409f-8c3f-450b4c6bce86_D_IdleV2_opt_lottie.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "host",
+        "user-agent"
+      ],
+      "response_header_names": [
+        "Accept-Ranges",
+        "Access-Control-Allow-Origin",
+        "Age",
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Eo-Cache-Status",
+        "Eo-Log-Uuid",
+        "Server",
+        "Vary",
+        "X-Waf-Uuid"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "fr": "int",
+                "id": "str",
+                "layers": [
+                  {
+                    "ao": "int",
+                    "ct": "int",
+                    "ind": "int",
+                    "ip": "int",
+                    "ks": {
+                      "a": {
+                        "a": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "o": {
+                        "a": "int",
+                        "k": "int"
+                      },
+                      "p": {
+                        "a": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "r": {
+                        "a": "int",
+                        "k": "int"
+                      },
+                      "s": {
+                        "a": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      }
+                    },
+                    "nm": "str",
+                    "op": "int",
+                    "shapes": [
+                      {
+                        "it": [
+                          {
+                            "d": "int",
+                            "nm": "str",
+                            "p": {
+                              "a": "int",
+                              "k": [
+                                "int"
+                              ]
+                            },
+                            "s": {
+                              "a": "int",
+                              "k": [
+                                "float"
+                              ]
+                            },
+                            "ty": "str"
+                          }
+                        ],
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "sr": "int",
+                    "st": "int",
+                    "ty": "int"
+                  }
+                ],
+                "nm": "str"
+              }
+            ],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "ct": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "it": [
+                      {
+                        "ind": "int",
+                        "ks": {
+                          "a": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "int"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "int"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "float"
+                              ]
+                            ]
+                          }
+                        },
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "nm": "str",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/62479384-7190-4222-bcae-331fe72114e0_DiraListeningwithGlow.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/62479384-7190-4222-bcae-331fe72114e0_DiraListeningwithGlow.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "host",
+        "user-agent"
+      ],
+      "response_header_names": [
+        "Accept-Ranges",
+        "Access-Control-Allow-Origin",
+        "Age",
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Eo-Cache-Status",
+        "Eo-Log-Uuid",
+        "Server",
+        "Vary",
+        "X-Waf-Uuid"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "e": "int",
+                "h": "int",
+                "id": "str",
+                "p": "str",
+                "u": "str",
+                "w": "int"
+              }
+            ],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "h": "int",
+                "hasMask": "bool",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      {
+                        "i": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "int"
+                          ]
+                        },
+                        "o": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "int"
+                          ]
+                        },
+                        "s": [
+                          "int"
+                        ],
+                        "t": "int"
+                      }
+                    ],
+                    "l": "int"
+                  }
+                },
+                "masksProperties": [
+                  {
+                    "inv": "bool",
+                    "mode": "str",
+                    "nm": "str",
+                    "o": {
+                      "a": "int",
+                      "k": "int"
+                    },
+                    "pt": {
+                      "a": "int",
+                      "k": {
+                        "c": "bool",
+                        "i": [
+                          [
+                            "float"
+                          ]
+                        ],
+                        "o": [
+                          [
+                            "float"
+                          ]
+                        ],
+                        "v": [
+                          [
+                            "float"
+                          ]
+                        ]
+                      }
+                    },
+                    "x": {
+                      "a": "int",
+                      "k": "int"
+                    }
+                  }
+                ],
+                "nm": "str",
+                "op": "int",
+                "refId": "str",
+                "sr": "int",
+                "st": "int",
+                "ty": "int",
+                "w": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/7d1c26b0-2727-4edb-bc0c-a12288abc932_DiraErrorWithGlow4Opt.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/7d1c26b0-2727-4edb-bc0c-a12288abc932_DiraErrorWithGlow4Opt.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "host",
+        "user-agent"
+      ],
+      "response_header_names": [
+        "Accept-Ranges",
+        "Access-Control-Allow-Origin",
+        "Age",
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Eo-Cache-Status",
+        "Eo-Log-Uuid",
+        "Server",
+        "Vary",
+        "X-Waf-Uuid"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "e": "int",
+                "h": "int",
+                "id": "str",
+                "p": "str",
+                "u": "str",
+                "w": "int"
+              }
+            ],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "ct": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      {
+                        "i": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "float"
+                          ]
+                        },
+                        "o": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "float"
+                          ]
+                        },
+                        "s": [
+                          "float"
+                        ],
+                        "t": "int"
+                      }
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "it": [
+                      {
+                        "ind": "int",
+                        "ks": {
+                          "a": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "int"
+                              ]
+                            ]
+                          }
+                        },
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "nm": "str",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/a4e2158c-059c-4c3e-998d-837edb5d60e8_DiraLady_Animation4.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/a4e2158c-059c-4c3e-998d-837edb5d60e8_DiraLady_Animation4.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "host",
+        "user-agent"
+      ],
+      "response_header_names": [
+        "Accept-Ranges",
+        "Access-Control-Allow-Origin",
+        "Age",
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Eo-Cache-Status",
+        "Eo-Log-Uuid",
+        "Server",
+        "Vary",
+        "X-Waf-Uuid"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "ct": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": [
+                      {
+                        "i": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "float"
+                          ]
+                        },
+                        "o": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "float"
+                          ]
+                        },
+                        "s": [
+                          "int"
+                        ],
+                        "t": "int"
+                      }
+                    ]
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "it": [
+                      {
+                        "ind": "int",
+                        "ks": {
+                          "a": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "int"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "int"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "float"
+                              ]
+                            ]
+                          }
+                        },
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "nm": "str",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/f404a24d-e888-4fbc-828d-3472d0fa4d99_DiraProcessingWithGlow4Opt.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/f404a24d-e888-4fbc-828d-3472d0fa4d99_DiraProcessingWithGlow4Opt.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "host",
+        "user-agent"
+      ],
+      "response_header_names": [
+        "Accept-Ranges",
+        "Access-Control-Allow-Origin",
+        "Age",
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Eo-Cache-Status",
+        "Eo-Log-Uuid",
+        "Server",
+        "Vary",
+        "X-Waf-Uuid"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "e": "int",
+                "h": "int",
+                "id": "str",
+                "p": "str",
+                "u": "str",
+                "w": "int"
+              }
+            ],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "ct": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "it": [
+                      {
+                        "ind": "int",
+                        "ks": {
+                          "a": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "int"
+                              ]
+                            ]
+                          }
+                        },
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "nm": "str",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/fcea6769-6c41-47ff-ab5b-a5896f4018ca_Dira_ListeningState2.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/fcea6769-6c41-47ff-ab5b-a5896f4018ca_Dira_ListeningState2.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "host",
+        "user-agent"
+      ],
+      "response_header_names": [
+        "Accept-Ranges",
+        "Access-Control-Allow-Origin",
+        "Age",
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Eo-Cache-Status",
+        "Eo-Log-Uuid",
+        "Server",
+        "Vary",
+        "X-Waf-Uuid"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "fr": "int",
+                "id": "str",
+                "layers": [
+                  {
+                    "ao": "int",
+                    "bm": "int",
+                    "ct": "int",
+                    "ddd": "int",
+                    "ind": "int",
+                    "ip": "int",
+                    "ks": {
+                      "a": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "o": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": "int"
+                      },
+                      "p": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "r": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": "int"
+                      },
+                      "s": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      }
+                    },
+                    "nm": "str",
+                    "op": "int",
+                    "shapes": [
+                      {
+                        "bm": "int",
+                        "cix": "int",
+                        "hd": "bool",
+                        "it": [
+                          {
+                            "d": "int",
+                            "hd": "bool",
+                            "mn": "str",
+                            "nm": "str",
+                            "p": {
+                              "a": "int",
+                              "ix": "int",
+                              "k": [
+                                "int"
+                              ]
+                            },
+                            "s": {
+                              "a": "int",
+                              "ix": "int",
+                              "k": [
+                                "float"
+                              ]
+                            },
+                            "ty": "str"
+                          }
+                        ],
+                        "ix": "int",
+                        "mn": "str",
+                        "nm": "str",
+                        "np": "int",
+                        "ty": "str"
+                      }
+                    ],
+                    "sr": "int",
+                    "st": "int",
+                    "ty": "int"
+                  }
+                ],
+                "nm": "str"
+              }
+            ],
+            "ddd": "int",
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "bm": "int",
+                "ddd": "int",
+                "h": "int",
+                "hasMask": "bool",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      {
+                        "i": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "int"
+                          ]
+                        },
+                        "o": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "int"
+                          ]
+                        },
+                        "s": [
+                          "int"
+                        ],
+                        "t": "int"
+                      }
+                    ],
+                    "l": "int"
+                  }
+                },
+                "masksProperties": [
+                  {
+                    "inv": "bool",
+                    "mode": "str",
+                    "nm": "str",
+                    "o": {
+                      "a": "int",
+                      "ix": "int",
+                      "k": "int"
+                    },
+                    "pt": {
+                      "a": "int",
+                      "ix": "int",
+                      "k": {
+                        "c": "bool",
+                        "i": [
+                          [
+                            "float"
+                          ]
+                        ],
+                        "o": [
+                          [
+                            "float"
+                          ]
+                        ],
+                        "v": [
+                          [
+                            "float"
+                          ]
+                        ]
+                      }
+                    },
+                    "x": {
+                      "a": "int",
+                      "ix": "int",
+                      "k": "int"
+                    }
+                  }
+                ],
+                "nm": "str",
+                "op": "int",
+                "refId": "str",
+                "sr": "int",
+                "st": "int",
+                "ty": "int",
+                "w": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "props": {},
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/fe9ff978-7407-4ad9-ac3a-89f42578864a_Dira_ProceessingState2.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/fe9ff978-7407-4ad9-ac3a-89f42578864a_Dira_ProceessingState2.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_header_names": [
+        "Accept-Encoding",
+        "host",
+        "user-agent"
+      ],
+      "response_header_names": [
+        "Accept-Ranges",
+        "Access-Control-Allow-Origin",
+        "Age",
+        "Cache-Control",
+        "Content-Length",
+        "Content-Type",
+        "Date",
+        "Eo-Cache-Status",
+        "Eo-Log-Uuid",
+        "Server",
+        "Vary",
+        "X-Waf-Uuid"
+      ],
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "fr": "int",
+                "id": "str",
+                "layers": [
+                  {
+                    "ao": "int",
+                    "bm": "int",
+                    "ct": "int",
+                    "ddd": "int",
+                    "ind": "int",
+                    "ip": "int",
+                    "ks": {
+                      "a": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "o": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": "int"
+                      },
+                      "p": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "r": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": "int"
+                      },
+                      "s": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      }
+                    },
+                    "nm": "str",
+                    "op": "int",
+                    "shapes": [
+                      {
+                        "bm": "int",
+                        "cix": "int",
+                        "hd": "bool",
+                        "it": [
+                          {
+                            "d": "int",
+                            "hd": "bool",
+                            "mn": "str",
+                            "nm": "str",
+                            "p": {
+                              "a": "int",
+                              "ix": "int",
+                              "k": [
+                                "int"
+                              ]
+                            },
+                            "s": {
+                              "a": "int",
+                              "ix": "int",
+                              "k": [
+                                "float"
+                              ]
+                            },
+                            "ty": "str"
+                          }
+                        ],
+                        "ix": "int",
+                        "mn": "str",
+                        "nm": "str",
+                        "np": "int",
+                        "ty": "str"
+                      }
+                    ],
+                    "sr": "int",
+                    "st": "int",
+                    "ty": "int"
+                  }
+                ],
+                "nm": "str"
+              }
+            ],
+            "ddd": "int",
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "bm": "int",
+                "ct": "int",
+                "ddd": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "bm": "int",
+                    "cix": "int",
+                    "hd": "bool",
+                    "it": [
+                      {
+                        "hd": "bool",
+                        "ind": "int",
+                        "ix": "int",
+                        "ks": {
+                          "a": "int",
+                          "ix": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "int"
+                              ]
+                            ]
+                          }
+                        },
+                        "mn": "str",
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "ix": "int",
+                    "mn": "str",
+                    "nm": "str",
+                    "np": "int",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "props": {},
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    }
+  ]
+}

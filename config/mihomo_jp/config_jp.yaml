@@ -1,0 +1,37 @@
+﻿mixed-port: 17892
+allow-lan: false
+bind-address: 127.0.0.1
+mode: global
+log-level: warning
+external-controller: 127.0.0.1:17893
+dns:
+  enable: true
+  listen: 0.0.0.0:17894
+  enhanced-mode: fake-ip
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+
+proxy-providers:
+  liangxin:
+    type: http
+    url: "https://vpn-provider.example.com/api/v1/sub?token=REDACTED_TOKEN"
+    interval: 3600
+    path: ./liangxin_proxies.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+proxy-groups:
+  - name: "日本出口"
+    type: select
+    use:
+      - liangxin
+    filter: "日本|JP|jp"
+
+rules:
+  - MATCH,日本出口

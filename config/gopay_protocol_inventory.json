@@ -1,0 +1,5507 @@
+{
+  "generated_at": "2026-05-28T16:35:11Z",
+  "boundary": "complete_protocol_inventory_with_sensitive_values_redacted",
+  "capture_category_counts": {
+    "gojek_api": 11,
+    "gojek_auth": 2,
+    "gojek_customer": 6,
+    "gojek_signup_otp": 7,
+    "gojek_supporting": 7,
+    "gopay_app": 27,
+    "gopay_balance": 6,
+    "gopay_pin": 2,
+    "supporting": 203
+  },
+  "capture_endpoints": [
+    {
+      "category": "supporting",
+      "endpoint": "POST stpphi.inapps.appsflyersdk.com/api/v6.17/androidevent",
+      "method": "POST",
+      "host": "stpphi.inapps.appsflyersdk.com",
+      "path": "/api/v6.17/androidevent",
+      "count": 190,
+      "statuses": {
+        "200": 190
+      },
+      "request_body_shapes": [
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1784
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2040
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2264
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1928
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2120
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2072
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2088
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1944
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2152
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2056
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1768
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2248
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2024
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2136
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2104
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1992
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2008
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1976
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1960
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1832
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1896
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1816
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1848
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2296
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2312
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2328
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2488
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2440
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2424
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2520
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2648
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2408
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2664
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2536
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2600
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1864
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1880
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 2392
+        },
+        {
+          "kind": "text",
+          "bytes": 2056
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "text/plain",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "GET customer.gopayapi.com/v1/users/security-meter",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/users/security-meter",
+      "count": 8,
+      "statuses": {
+        "200": 8
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "color_code": "str",
+              "fields": [
+                {
+                  "evaluated": "bool",
+                  "key": "str",
+                  "priority": "int",
+                  "weightage": "int"
+                }
+              ],
+              "security_aware": [
+                {
+                  "bg_color": "str",
+                  "deeplink": "str",
+                  "description": "str",
+                  "icon": "str",
+                  "security_aware_identifier": "str",
+                  "title": "str",
+                  "title_homepage": "str"
+                }
+              ],
+              "total_strength": "int"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "supporting",
+      "endpoint": "POST stpphi.launches.appsflyersdk.com/api/v6.17/androidevent",
+      "method": "POST",
+      "host": "stpphi.launches.appsflyersdk.com",
+      "path": "/api/v6.17/androidevent",
+      "count": 5,
+      "statuses": {
+        "200": 5
+      },
+      "request_body_shapes": [
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1896
+        },
+        {
+          "kind": "application/octet-stream",
+          "bytes": 1912
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "text/plain",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "GET customer.gopayapi.com/v1/users/profile",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/users/profile",
+      "count": 4,
+      "statuses": {
+        "200": 4
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "blocked": "bool",
+              "is_pin_setup": "bool",
+              "qr_id": "str"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_signup_otp",
+      "endpoint": "POST accounts.goto-products.com/cvs/v1/initiate",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/cvs/v1/initiate",
+      "count": 3,
+      "statuses": {
+        "200": 3
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "str",
+            "device_verification_token_id": "null",
+            "email_address": "null",
+            "flow": "str",
+            "is_multiple_method": "null",
+            "phone_number": "str",
+            "verification_id": "str",
+            "verification_method": "str"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "null",
+            "device_verification_token_id": "null",
+            "email_address": "null",
+            "flow": "str",
+            "is_multiple_method": "null",
+            "phone_number": "null",
+            "verification_id": "str",
+            "verification_method": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "device_mapped_for_dbl": "bool",
+              "fr_token_details": {
+                "challenge_token": "str",
+                "user_token": "str"
+              },
+              "metadata": {
+                "phone": "str"
+              },
+              "otp_length": "int",
+              "otp_token": "str",
+              "retry_timer_in_seconds": [
+                "int"
+              ]
+            },
+            "success": "bool"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "device_mapped_for_dbl": "bool",
+              "fr_token_details": {
+                "challenge_token": "str",
+                "user_token": "str"
+              },
+              "metadata": {
+                "phone": "str",
+                "whatsapp_deeplink": "str"
+              },
+              "otp_length": "int",
+              "otp_token": "str",
+              "retry_timer_in_seconds": [
+                "int"
+              ]
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_customer",
+      "endpoint": "GET api.gojekapi.com/gojek/v2/customer",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/gojek/v2/customer",
+      "count": 3,
+      "statuses": {
+        "401": 1,
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "message": "str"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "customer": {
+              "apple_account_linked": "bool",
+              "bio": "null",
+              "chat_id": "null",
+              "chat_token": "null",
+              "country_code": "str",
+              "created_at": "str",
+              "email": "null",
+              "email_verified": "bool",
+              "facebook_connected": "bool",
+              "google_account_linked": "bool",
+              "gopay_account_id": "str",
+              "id": "int",
+              "locale": "str",
+              "locale_selection_type": "null",
+              "name": "str",
+              "number": "str",
+              "phone": "str",
+              "profile_image_url": "null",
+              "signed_up_country": "str"
+            },
+            "message": "str",
+            "status": "str"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_customer",
+      "endpoint": "POST api.gojekapi.com/v7/customers/signup",
+      "method": "POST",
+      "host": "api.gojekapi.com",
+      "path": "/v7/customers/signup",
+      "count": 3,
+      "statuses": {
+        "400": 2,
+        "201": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_name": "str",
+            "client_secret": "str",
+            "data": {
+              "email": "str",
+              "name": "str",
+              "onboarding_partner": "str",
+              "phone": "str",
+              "signed_up_country": "str"
+            }
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "null",
+            "errors": [
+              {
+                "code": "str",
+                "message": "str",
+                "message_severity": "str",
+                "message_title": "str"
+              }
+            ],
+            "success": "bool"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "access_token": "str",
+              "customer": {
+                "active": "bool",
+                "bio": "null",
+                "blacklisted": "bool",
+                "chat_id": "null",
+                "chat_token": "null",
+                "country_code": "str",
+                "created_at": "str",
+                "created_by": "str",
+                "dob": "null",
+                "email": "null",
+                "email_verified": "bool",
+                "facebook_connected": "bool",
+                "gopay_account_id": "null",
+                "id": "int",
+                "is_driver": "null",
+                "locale": "str",
+                "locale_selection_type": "null",
+                "name": "str",
+                "number": "str",
+                "onboarding_partner": "str",
+                "phone": "str",
+                "phone_verified": "bool",
+                "profile_image_url": "null",
+                "sex": "null",
+                "signed_up_country": "str",
+                "toko_id": "null",
+                "updated_at": "str",
+                "wallet_id": "null"
+              },
+              "expires_in": "int",
+              "refresh_token": "str",
+              "resource_owner_id": "int",
+              "resource_owner_type": "str",
+              "scopes": "str"
+            },
+            "errors": "null",
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET gopay-raccoon.gojekapi.com/api/v1/events",
+      "method": "GET",
+      "host": "gopay-raccoon.gojekapi.com",
+      "path": "/api/v1/events",
+      "count": 3,
+      "statuses": {
+        "101": 3
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ]
+    },
+    {
+      "category": "gojek_signup_otp",
+      "endpoint": "POST accounts.goto-products.com/cvs/v1/methods",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/cvs/v1/methods",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "str",
+            "device_verification_token_id": "null",
+            "email_address": "null",
+            "flow": "str",
+            "phone_number": "str"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "null",
+            "device_verification_token_id": "null",
+            "email_address": "null",
+            "flow": "str",
+            "phone_number": "null"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "default_method": "str",
+              "methods": [
+                "str"
+              ],
+              "verification_id": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_signup_otp",
+      "endpoint": "POST accounts.goto-products.com/cvs/v1/verify",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/cvs/v1/verify",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "data": {
+              "otp": "str",
+              "otp_token": "str"
+            },
+            "flow": "str",
+            "verification_id": "str",
+            "verification_method": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "verification_token": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_supporting",
+      "endpoint": "GET api.gojekapi.com/courier/v1/token",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/courier/v1/token",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "broker": {
+              "host": "str",
+              "port": "int"
+            },
+            "expiry_in_sec": "int",
+            "token": "str"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_supporting",
+      "endpoint": "GET api.gojekapi.com/litmus/public/run/experiments",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/litmus/public/run/experiments",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "channel_name": "str",
+                "channel_weight": "int",
+                "correlation_id": "str",
+                "exp_id": "str",
+                "exp_type": "str",
+                "experiment": "str",
+                "properties": {
+                  "gopay_introduction_content": "str",
+                  "is_enabled": "bool"
+                },
+                "run_id": "int",
+                "unit_type": "str",
+                "variant": "str",
+                "version": "int"
+              }
+            ],
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_supporting",
+      "endpoint": "GET api.gojekapi.com/litmus/run/experiments",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/litmus/run/experiments",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "channel_name": "str",
+                "channel_weight": "int",
+                "correlation_id": "str",
+                "exp_id": "str",
+                "exp_type": "str",
+                "experiment": "str",
+                "properties": {
+                  "duration": "int"
+                },
+                "run_id": "int",
+                "unit_type": "str",
+                "variant": "str",
+                "version": "int"
+              }
+            ],
+            "errors": [],
+            "success": "bool"
+          }
+        },
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "channel_name": "str",
+                "channel_weight": "int",
+                "correlation_id": "str",
+                "exp_id": "str",
+                "exp_type": "str",
+                "experiment": "str",
+                "properties": {
+                  "fab_data": "str",
+                  "should_show_fab": "bool"
+                },
+                "run_id": "int",
+                "unit_type": "str",
+                "variant": "str",
+                "version": "int"
+              }
+            ],
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "supporting",
+      "endpoint": "GET api.ipify.org/",
+      "method": "GET",
+      "host": "api.ipify.org",
+      "path": "/",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "text/plain",
+          "bytes": 14
+        }
+      ]
+    },
+    {
+      "category": "supporting",
+      "endpoint": "POST crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/batchlog",
+      "method": "POST",
+      "host": "crashlyticsreports-pa.googleapis.com",
+      "path": "/v1/firelog/legacy/batchlog",
+      "count": 2,
+      "statuses": {},
+      "request_body_shapes": [
+        {
+          "kind": "text",
+          "bytes": 21817
+        },
+        {
+          "kind": "text",
+          "bytes": 21812
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "GET customer.gopayapi.com/v1/festivals/assets",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/festivals/assets",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "assets": [
+                {
+                  "bubble_icon": "str",
+                  "envelopes": [
+                    {
+                      "animation_illustration": "str",
+                      "closed_envelope_img": "str",
+                      "id": "str",
+                      "lottie_animation": "str"
+                    }
+                  ],
+                  "festival_id": "str",
+                  "home_gradient_img": "str",
+                  "home_illustration": "str",
+                  "input_amount_header_img": "str",
+                  "open_envelope_gradient_img": "str"
+                }
+              ],
+              "expiry_time_in_seconds": {
+                "group_link": "int",
+                "group_receiver": "int",
+                "single_link": "int",
+                "single_receiver": "int"
+              },
+              "group_envelope_assets": {
+                "amount_configuration_assets": [
+                  {
+                    "description": "str",
+                    "display_name": "str",
+                    "icon": "str",
+                    "icon_color": "str",
+                    "minimum_amount": "int",
+                    "minimum_recipients": "int",
+                    "name": "str"
+                  }
+                ],
+                "maximum_recipients": "int"
+              }
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_balance",
+      "endpoint": "GET customer.gopayapi.com/v1/payment-options/balances",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/payment-options/balances",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "balance": {
+                  "currency": "str",
+                  "display_value": "str",
+                  "value": "int"
+                },
+                "country_code": "str",
+                "token": "str",
+                "type": "str"
+              }
+            ],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_balance",
+      "endpoint": "GET customer.gopayapi.com/v1/payment-options/profiles",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/payment-options/profiles",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": [
+              {
+                "additional_details": {
+                  "group_id": "str",
+                  "kyc_name": "str",
+                  "kyc_status": "str"
+                },
+                "type": "str"
+              }
+            ],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "POST customer.gopayapi.com/v1/support/customer/initiate",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/support/customer/initiate",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "str",
+            "support_code": "str",
+            "support_id": "str",
+            "support_lang": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "GET customer.gopayapi.com/v1/users/red-badges",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/users/red-badges",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "screens": {}
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "GET customer.gopayapi.com/v2/users/kyc/status",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v2/users/kyc/status",
+      "count": 2,
+      "statuses": {
+        "200": 2
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "status": "str"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "supporting",
+      "endpoint": "POST firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog",
+      "method": "POST",
+      "host": "firebaselogging-pa.googleapis.com",
+      "path": "/v1/firelog/legacy/batchlog",
+      "count": 2,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "text",
+          "bytes": 1367
+        },
+        {
+          "kind": "text",
+          "bytes": 1589
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "logResponseDetails": [
+              {
+                "logRequestIndex": "int",
+                "responseAction": "str"
+              }
+            ],
+            "nextRequestWaitMillis": "str"
+          }
+        },
+        {
+          "kind": "empty"
+        }
+      ]
+    },
+    {
+      "category": "gojek_auth",
+      "endpoint": "POST accounts.goto-products.com/goto-auth/login/methods",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/goto-auth/login/methods",
+      "count": 1,
+      "statuses": {
+        "401": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "country_code": "str",
+            "device_verification_token_id": "str",
+            "email": "str",
+            "phone_number": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "null",
+            "errors": [
+              {
+                "code": "str",
+                "message": "str",
+                "message_title": "str"
+              }
+            ],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_auth",
+      "endpoint": "POST accounts.goto-products.com/goto-auth/token",
+      "method": "POST",
+      "host": "accounts.goto-products.com",
+      "path": "/goto-auth/token",
+      "count": 1,
+      "statuses": {
+        "201": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "client_id": "str",
+            "client_secret": "str",
+            "grant_type": "str",
+            "token": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "access_token": "str",
+              "flags": {
+                "device_verification_enabled": "bool",
+                "is_linking_success": "null",
+                "onetap_eligible": "bool",
+                "trusted_device_count": "int"
+              },
+              "refresh_token": "str",
+              "user_type": "str"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_supporting",
+      "endpoint": "PUT api.gojekapi.com/v1/devices/push_token",
+      "method": "PUT",
+      "host": "api.gojekapi.com",
+      "path": "/v1/devices/push_token",
+      "count": 1,
+      "statuses": {
+        "204": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "push_token": "str",
+            "push_token_type": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET api.gojekapi.com/v2/chat/profile",
+      "method": "GET",
+      "host": "api.gojekapi.com",
+      "path": "/v2/chat/profile",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "id": "str"
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_pin",
+      "endpoint": "POST customer.gopayapi.com/api/v1/users/pins/allowed",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v1/users/pins/allowed",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "pin": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "POST customer.gopayapi.com/api/v2/consents/accept",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v2/consents/accept",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "consents": [
+              {
+                "consent_name": "str",
+                "flow": "str",
+                "user_type": "str"
+              }
+            ]
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_pin",
+      "endpoint": "POST customer.gopayapi.com/api/v2/users/pins/setup/tokens",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v2/users/pins/setup/tokens",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "challenge_id": "str",
+            "client_id": "str",
+            "pin": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "token": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "GET customer.gopayapi.com/bff/v1/screens/gopay-home-v3",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/bff/v1/screens/gopay-home-v3",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "name": "str",
+              "sdkVersion": "str",
+              "sections": [
+                {
+                  "organismData": [
+                    {
+                      "organism": {
+                        "compositeGridTiles": {
+                          "gridTiles": [
+                            {
+                              "badge": "str",
+                              "darkModeImageUrl": "str",
+                              "deeplink": "str",
+                              "imageUrl": "str",
+                              "moleculeId": "str",
+                              "positionClickEvent": {
+                                "action": "str",
+                                "event": {
+                                  "data": {
+                                    "ActionDescription": "str",
+                                    "Deeplink": "str",
+                                    "Position": "str",
+                                    "screen_name": "str"
+                                  },
+                                  "name": "str"
+                                },
+                                "organismId": "str",
+                                "organismType": "str",
+                                "screenName": "str",
+                                "source": "str",
+                                "type": "str"
+                              },
+                              "ribbonImageUrl": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "title": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "type": "str",
+                              "viewEvent": {
+                                "action": "str",
+                                "deeplink": "str",
+                                "event": {
+                                  "data": {
+                                    "ActionDescription": "str",
+                                    "Deeplink": "str",
+                                    "Position": "str",
+                                    "screen_name": "str"
+                                  },
+                                  "name": "str"
+                                },
+                                "organismId": "str",
+                                "organismType": "str",
+                                "screenName": "str",
+                                "source": "str",
+                                "type": "str"
+                              }
+                            }
+                          ],
+                          "isTileExpanded": "bool",
+                          "type": "str",
+                          "viewEvent": {
+                            "action": "str",
+                            "event": {
+                              "data": {
+                                "screen_name": "str"
+                              },
+                              "name": "str"
+                            },
+                            "organismId": "str",
+                            "organismType": "str",
+                            "source": "str",
+                            "type": "str"
+                          }
+                        },
+                        "organismId": "str"
+                      },
+                      "type": "str"
+                    }
+                  ],
+                  "sectionType": "str"
+                }
+              ],
+              "variantId": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "POST customer.gopayapi.com/paylater/auth/partner/v1/auth/gofin-token",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/paylater/auth/partner/v1/auth/gofin-token",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "authToken": "str",
+              "metadata": {
+                "csTrackingId": "str"
+              }
+            },
+            "errors": [],
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "POST customer.gopayapi.com/v1/support/customer/actions",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/support/customer/actions",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "str",
+            "support_code": "str",
+            "support_id": "str",
+            "support_lang": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "POST customer.gopayapi.com/v1/support/customer/activity",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/support/customer/activity",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "str",
+            "support_code": "str",
+            "support_id": "str",
+            "support_lang": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "POST customer.gopayapi.com/v1/support/customer/session",
+      "method": "POST",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/support/customer/session",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": "str",
+            "support_code": "str",
+            "support_id": "str",
+            "support_lang": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_balance",
+      "endpoint": "GET customer.gopayapi.com/v1/user/wallet-card/balance",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/user/wallet-card/balance",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "accessory_action": {
+                "click_event": {
+                  "action": "str",
+                  "name": "str",
+                  "properties": {
+                    "currency": "str",
+                    "deeplink": "str",
+                    "is_budget_set": "str",
+                    "spends": "str",
+                    "state": "str"
+                  }
+                },
+                "deeplink": "str",
+                "hidden_text": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "highlight_text": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "left_icon": "str",
+                "right_icon": "str",
+                "text": {
+                  "en": "str",
+                  "id": "str"
+                }
+              },
+              "balance": {
+                "click_event": {
+                  "action": "str",
+                  "name": "str",
+                  "properties": {
+                    "deeplink": "str",
+                    "state": "str"
+                  }
+                },
+                "currency": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "deeplink": "str",
+                "error_cta": "null",
+                "hidden_text": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "highlight_text": {
+                  "en": "str",
+                  "id": "str"
+                },
+                "left_icon": "null",
+                "text": {
+                  "en": "str",
+                  "id": "str"
+                }
+              },
+              "balance_visibility": "bool",
+              "secondary_balances": [
+                {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": {
+                      "deeplink": "str"
+                    }
+                  },
+                  "deeplink": "str",
+                  "hidden_text": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "highlight_text": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "secondary_text": "null",
+                  "text": {
+                    "en": "str",
+                    "id": "str"
+                  }
+                }
+              ],
+              "view_event": {
+                "action": "str",
+                "name": "str",
+                "properties": {
+                  "balance_value": "str",
+                  "coins_value": "str"
+                }
+              }
+            },
+            "errors": "null",
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_balance",
+      "endpoint": "GET customer.gopayapi.com/v1/user/wallet-card/widget",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/user/wallet-card/widget",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "background_image_url": "str",
+              "deeplink": "str",
+              "fixed_pill": "null",
+              "knobs": [
+                {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": "null"
+                  },
+                  "deeplink": "str",
+                  "icon": "str",
+                  "show_animation": "bool",
+                  "tag": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "text": {
+                    "en": "str",
+                    "id": "str"
+                  }
+                }
+              ],
+              "nav_bar": {
+                "profile_security_status": {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": "null"
+                  },
+                  "icon_url": "str",
+                  "show_middle_pill": "bool"
+                },
+                "top_left_icon": {
+                  "click_event": "null",
+                  "deeplink": "str",
+                  "icon_type": "str",
+                  "image_url": "str"
+                },
+                "top_right_icon": {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": "null"
+                  },
+                  "deeplink": "str",
+                  "image_url": "str"
+                },
+                "user_profile": {
+                  "click_event": "null",
+                  "deeplink": "str",
+                  "image_url": "str",
+                  "is_verified": "bool"
+                }
+              },
+              "pills": [
+                {
+                  "click_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": {
+                      "InsurancePillText": "str",
+                      "IsRecommended": "str",
+                      "PillPosition": "str",
+                      "deeplink": "str"
+                    }
+                  },
+                  "deeplink": "str",
+                  "highlight_text": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "left_image": "str",
+                  "right_image": "str",
+                  "secondary_highlight_text": "null",
+                  "secondary_text": "null",
+                  "show_animation": "bool",
+                  "text": {
+                    "en": "str",
+                    "id": "str"
+                  },
+                  "view_event": {
+                    "action": "str",
+                    "name": "str",
+                    "properties": {
+                      "InsurancePillText": "str",
+                      "IsRecommended": "str",
+                      "PillPosition": "str"
+                    }
+                  }
+                }
+              ],
+              "view_event": {
+                "action": "str",
+                "name": "str",
+                "properties": {
+                  "BottomPillCount": "str",
+                  "BottomPillOrder": "str",
+                  "DefaultPillText": "str",
+                  "HasBeenRecommended": "str",
+                  "InsurancePillText": "str",
+                  "PinjamPillText": "str",
+                  "RecommendedBottomPillCount": "str"
+                }
+              }
+            },
+            "errors": "null",
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gopay_app",
+      "endpoint": "GET customer.gopayapi.com/v2/users/cross-sells",
+      "method": "GET",
+      "host": "customer.gopayapi.com",
+      "path": "/v2/users/cross-sells",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "APlusCheckIn": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "BillsTransactionCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "ExpenseManagement": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "OfflineTransactionCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "PulsaTransactionCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "ScratchCard": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "SecurityStrengthMeter": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "TopUpCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ],
+              "TransferCompleted": [
+                {
+                  "data": {
+                    "campaign": "str",
+                    "category": "str",
+                    "display_type": "str",
+                    "popup_data": {
+                      "rating_prompt": {
+                        "downvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "reasons": [
+                            {
+                              "reason": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              },
+                              "reason_code": "str"
+                            }
+                          ],
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        },
+                        "upvote": {
+                          "description": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          },
+                          "image_url": "str",
+                          "rating_type": "str",
+                          "redirection_prompt": {
+                            "description": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            },
+                            "left_cta": {
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "right_cta": {
+                              "deeplink": "str",
+                              "text": {
+                                "en": "str",
+                                "id": "str",
+                                "vi": "str"
+                              }
+                            },
+                            "title": {
+                              "en": "str",
+                              "id": "str",
+                              "vi": "str"
+                            }
+                          },
+                          "title": {
+                            "en": "str",
+                            "id": "str",
+                            "vi": "str"
+                          }
+                        }
+                      },
+                      "voting_prompt": {
+                        "description": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "downvote_image_url": "str",
+                        "title": {
+                          "en": "str",
+                          "id": "str",
+                          "vi": "str"
+                        },
+                        "upvote_image_url": "str"
+                      }
+                    },
+                    "screen_name": "str"
+                  },
+                  "type": "str"
+                }
+              ]
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "supporting",
+      "endpoint": "POST firebaseremoteconfig.googleapis.com/v1/projects/43578156263/namespaces/fireperf:fetch",
+      "method": "POST",
+      "host": "firebaseremoteconfig.googleapis.com",
+      "path": "/v1/projects/43578156263/namespaces/fireperf:fetch",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "analyticsUserProperties": {},
+            "appBuild": "str",
+            "appId": "str",
+            "appInstanceId": "str",
+            "appInstanceIdToken": "str",
+            "appVersion": "str",
+            "countryCode": "str",
+            "firstOpenTime": "str",
+            "languageCode": "str",
+            "packageName": "str",
+            "platformVersion": "str",
+            "sdkVersion": "str",
+            "timeZone": "str"
+          }
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "appName": "str",
+            "entries": {
+              "fpr_disabled_android_versions": "str",
+              "fpr_disabled_ios_versions": "str",
+              "fpr_disabled_web_versions": "str",
+              "fpr_enabled": "str",
+              "fpr_experiment_app_start_ttid": "str",
+              "fpr_log_endpoint_url": "str",
+              "fpr_log_source": "str",
+              "fpr_log_transport_android_percent": "str",
+              "fpr_log_transport_ios_percent": "str",
+              "fpr_log_transport_key": "str",
+              "fpr_rl_network_request_event_count_bg": "str",
+              "fpr_rl_network_request_event_count_fg": "str",
+              "fpr_rl_time_limit_sec": "str",
+              "fpr_rl_trace_event_count_bg": "str",
+              "fpr_rl_trace_event_count_fg": "str",
+              "fpr_session_gauge_cpu_capture_frequency_bg_ms": "str",
+              "fpr_session_gauge_cpu_capture_frequency_fg_ms": "str",
+              "fpr_session_gauge_memory_capture_frequency_bg_ms": "str",
+              "fpr_session_gauge_memory_capture_frequency_fg_ms": "str",
+              "fpr_session_max_length_min": "str",
+              "fpr_vc_fragment_sampling_rate": "str",
+              "fpr_vc_network_request_sampling_rate": "str",
+              "fpr_vc_session_sampling_rate": "str",
+              "fpr_vc_trace_sampling_rate": "str"
+            },
+            "state": "str",
+            "templateVersion": "str"
+          }
+        }
+      ]
+    },
+    {
+      "category": "supporting",
+      "endpoint": "GET gateway.paylater.gofin.co.id/paylater-user/v2/profile",
+      "method": "GET",
+      "host": "gateway.paylater.gofin.co.id",
+      "path": "/paylater-user/v2/profile",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "data": {
+              "available_services": [
+                "int"
+              ],
+              "deeplink": "str"
+            },
+            "success": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/0d7e9a7a-0874-409f-8c3f-450b4c6bce86_D_IdleV2_opt_lottie.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/0d7e9a7a-0874-409f-8c3f-450b4c6bce86_D_IdleV2_opt_lottie.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "fr": "int",
+                "id": "str",
+                "layers": [
+                  {
+                    "ao": "int",
+                    "ct": "int",
+                    "ind": "int",
+                    "ip": "int",
+                    "ks": {
+                      "a": {
+                        "a": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "o": {
+                        "a": "int",
+                        "k": "int"
+                      },
+                      "p": {
+                        "a": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "r": {
+                        "a": "int",
+                        "k": "int"
+                      },
+                      "s": {
+                        "a": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      }
+                    },
+                    "nm": "str",
+                    "op": "int",
+                    "shapes": [
+                      {
+                        "it": [
+                          {
+                            "d": "int",
+                            "nm": "str",
+                            "p": {
+                              "a": "int",
+                              "k": [
+                                "int"
+                              ]
+                            },
+                            "s": {
+                              "a": "int",
+                              "k": [
+                                "float"
+                              ]
+                            },
+                            "ty": "str"
+                          }
+                        ],
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "sr": "int",
+                    "st": "int",
+                    "ty": "int"
+                  }
+                ],
+                "nm": "str"
+              }
+            ],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "ct": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "it": [
+                      {
+                        "ind": "int",
+                        "ks": {
+                          "a": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "int"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "int"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "float"
+                              ]
+                            ]
+                          }
+                        },
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "nm": "str",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/62479384-7190-4222-bcae-331fe72114e0_DiraListeningwithGlow.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/62479384-7190-4222-bcae-331fe72114e0_DiraListeningwithGlow.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "e": "int",
+                "h": "int",
+                "id": "str",
+                "p": "str",
+                "u": "str",
+                "w": "int"
+              }
+            ],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "h": "int",
+                "hasMask": "bool",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      {
+                        "i": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "int"
+                          ]
+                        },
+                        "o": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "int"
+                          ]
+                        },
+                        "s": [
+                          "int"
+                        ],
+                        "t": "int"
+                      }
+                    ],
+                    "l": "int"
+                  }
+                },
+                "masksProperties": [
+                  {
+                    "inv": "bool",
+                    "mode": "str",
+                    "nm": "str",
+                    "o": {
+                      "a": "int",
+                      "k": "int"
+                    },
+                    "pt": {
+                      "a": "int",
+                      "k": {
+                        "c": "bool",
+                        "i": [
+                          [
+                            "float"
+                          ]
+                        ],
+                        "o": [
+                          [
+                            "float"
+                          ]
+                        ],
+                        "v": [
+                          [
+                            "float"
+                          ]
+                        ]
+                      }
+                    },
+                    "x": {
+                      "a": "int",
+                      "k": "int"
+                    }
+                  }
+                ],
+                "nm": "str",
+                "op": "int",
+                "refId": "str",
+                "sr": "int",
+                "st": "int",
+                "ty": "int",
+                "w": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/7d1c26b0-2727-4edb-bc0c-a12288abc932_DiraErrorWithGlow4Opt.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/7d1c26b0-2727-4edb-bc0c-a12288abc932_DiraErrorWithGlow4Opt.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "e": "int",
+                "h": "int",
+                "id": "str",
+                "p": "str",
+                "u": "str",
+                "w": "int"
+              }
+            ],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "ct": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      {
+                        "i": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "float"
+                          ]
+                        },
+                        "o": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "float"
+                          ]
+                        },
+                        "s": [
+                          "float"
+                        ],
+                        "t": "int"
+                      }
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "it": [
+                      {
+                        "ind": "int",
+                        "ks": {
+                          "a": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "int"
+                              ]
+                            ]
+                          }
+                        },
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "nm": "str",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/a4e2158c-059c-4c3e-998d-837edb5d60e8_DiraLady_Animation4.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/a4e2158c-059c-4c3e-998d-837edb5d60e8_DiraLady_Animation4.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "ct": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": [
+                      {
+                        "i": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "float"
+                          ]
+                        },
+                        "o": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "float"
+                          ]
+                        },
+                        "s": [
+                          "int"
+                        ],
+                        "t": "int"
+                      }
+                    ]
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "it": [
+                      {
+                        "ind": "int",
+                        "ks": {
+                          "a": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "int"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "int"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "float"
+                              ]
+                            ]
+                          }
+                        },
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "nm": "str",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/f404a24d-e888-4fbc-828d-3472d0fa4d99_DiraProcessingWithGlow4Opt.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/f404a24d-e888-4fbc-828d-3472d0fa4d99_DiraProcessingWithGlow4Opt.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "e": "int",
+                "h": "int",
+                "id": "str",
+                "p": "str",
+                "u": "str",
+                "w": "int"
+              }
+            ],
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "ct": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "it": [
+                      {
+                        "ind": "int",
+                        "ks": {
+                          "a": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "int"
+                              ]
+                            ]
+                          }
+                        },
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "nm": "str",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/fcea6769-6c41-47ff-ab5b-a5896f4018ca_Dira_ListeningState2.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/fcea6769-6c41-47ff-ab5b-a5896f4018ca_Dira_ListeningState2.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "fr": "int",
+                "id": "str",
+                "layers": [
+                  {
+                    "ao": "int",
+                    "bm": "int",
+                    "ct": "int",
+                    "ddd": "int",
+                    "ind": "int",
+                    "ip": "int",
+                    "ks": {
+                      "a": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "o": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": "int"
+                      },
+                      "p": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "r": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": "int"
+                      },
+                      "s": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      }
+                    },
+                    "nm": "str",
+                    "op": "int",
+                    "shapes": [
+                      {
+                        "bm": "int",
+                        "cix": "int",
+                        "hd": "bool",
+                        "it": [
+                          {
+                            "d": "int",
+                            "hd": "bool",
+                            "mn": "str",
+                            "nm": "str",
+                            "p": {
+                              "a": "int",
+                              "ix": "int",
+                              "k": [
+                                "int"
+                              ]
+                            },
+                            "s": {
+                              "a": "int",
+                              "ix": "int",
+                              "k": [
+                                "float"
+                              ]
+                            },
+                            "ty": "str"
+                          }
+                        ],
+                        "ix": "int",
+                        "mn": "str",
+                        "nm": "str",
+                        "np": "int",
+                        "ty": "str"
+                      }
+                    ],
+                    "sr": "int",
+                    "st": "int",
+                    "ty": "int"
+                  }
+                ],
+                "nm": "str"
+              }
+            ],
+            "ddd": "int",
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "bm": "int",
+                "ddd": "int",
+                "h": "int",
+                "hasMask": "bool",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      {
+                        "i": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "int"
+                          ]
+                        },
+                        "o": {
+                          "x": [
+                            "float"
+                          ],
+                          "y": [
+                            "int"
+                          ]
+                        },
+                        "s": [
+                          "int"
+                        ],
+                        "t": "int"
+                      }
+                    ],
+                    "l": "int"
+                  }
+                },
+                "masksProperties": [
+                  {
+                    "inv": "bool",
+                    "mode": "str",
+                    "nm": "str",
+                    "o": {
+                      "a": "int",
+                      "ix": "int",
+                      "k": "int"
+                    },
+                    "pt": {
+                      "a": "int",
+                      "ix": "int",
+                      "k": {
+                        "c": "bool",
+                        "i": [
+                          [
+                            "float"
+                          ]
+                        ],
+                        "o": [
+                          [
+                            "float"
+                          ]
+                        ],
+                        "v": [
+                          [
+                            "float"
+                          ]
+                        ]
+                      }
+                    },
+                    "x": {
+                      "a": "int",
+                      "ix": "int",
+                      "k": "int"
+                    }
+                  }
+                ],
+                "nm": "str",
+                "op": "int",
+                "refId": "str",
+                "sr": "int",
+                "st": "int",
+                "ty": "int",
+                "w": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "props": {},
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    },
+    {
+      "category": "gojek_api",
+      "endpoint": "GET i.gojekapi.com/darkroom/nearby-cms-id/v2/files/fe9ff978-7407-4ad9-ac3a-89f42578864a_Dira_ProceessingState2.json",
+      "method": "GET",
+      "host": "i.gojekapi.com",
+      "path": "/darkroom/nearby-cms-id/v2/files/fe9ff978-7407-4ad9-ac3a-89f42578864a_Dira_ProceessingState2.json",
+      "count": 1,
+      "statuses": {
+        "200": 1
+      },
+      "request_body_shapes": [
+        {
+          "kind": "empty"
+        }
+      ],
+      "response_body_shapes": [
+        {
+          "kind": "json",
+          "shape": {
+            "assets": [
+              {
+                "fr": "int",
+                "id": "str",
+                "layers": [
+                  {
+                    "ao": "int",
+                    "bm": "int",
+                    "ct": "int",
+                    "ddd": "int",
+                    "ind": "int",
+                    "ip": "int",
+                    "ks": {
+                      "a": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "o": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": "int"
+                      },
+                      "p": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      },
+                      "r": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": "int"
+                      },
+                      "s": {
+                        "a": "int",
+                        "ix": "int",
+                        "k": [
+                          "int"
+                        ],
+                        "l": "int"
+                      }
+                    },
+                    "nm": "str",
+                    "op": "int",
+                    "shapes": [
+                      {
+                        "bm": "int",
+                        "cix": "int",
+                        "hd": "bool",
+                        "it": [
+                          {
+                            "d": "int",
+                            "hd": "bool",
+                            "mn": "str",
+                            "nm": "str",
+                            "p": {
+                              "a": "int",
+                              "ix": "int",
+                              "k": [
+                                "int"
+                              ]
+                            },
+                            "s": {
+                              "a": "int",
+                              "ix": "int",
+                              "k": [
+                                "float"
+                              ]
+                            },
+                            "ty": "str"
+                          }
+                        ],
+                        "ix": "int",
+                        "mn": "str",
+                        "nm": "str",
+                        "np": "int",
+                        "ty": "str"
+                      }
+                    ],
+                    "sr": "int",
+                    "st": "int",
+                    "ty": "int"
+                  }
+                ],
+                "nm": "str"
+              }
+            ],
+            "ddd": "int",
+            "fr": "int",
+            "h": "int",
+            "ip": "int",
+            "layers": [
+              {
+                "ao": "int",
+                "bm": "int",
+                "ct": "int",
+                "ddd": "int",
+                "ind": "int",
+                "ip": "int",
+                "ks": {
+                  "a": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "float"
+                    ],
+                    "l": "int"
+                  },
+                  "o": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": "int"
+                  },
+                  "p": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  },
+                  "r": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": "int"
+                  },
+                  "s": {
+                    "a": "int",
+                    "ix": "int",
+                    "k": [
+                      "int"
+                    ],
+                    "l": "int"
+                  }
+                },
+                "nm": "str",
+                "op": "int",
+                "shapes": [
+                  {
+                    "bm": "int",
+                    "cix": "int",
+                    "hd": "bool",
+                    "it": [
+                      {
+                        "hd": "bool",
+                        "ind": "int",
+                        "ix": "int",
+                        "ks": {
+                          "a": "int",
+                          "ix": "int",
+                          "k": {
+                            "c": "bool",
+                            "i": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "o": [
+                              [
+                                "float"
+                              ]
+                            ],
+                            "v": [
+                              [
+                                "int"
+                              ]
+                            ]
+                          }
+                        },
+                        "mn": "str",
+                        "nm": "str",
+                        "ty": "str"
+                      }
+                    ],
+                    "ix": "int",
+                    "mn": "str",
+                    "nm": "str",
+                    "np": "int",
+                    "ty": "str"
+                  }
+                ],
+                "sr": "int",
+                "st": "int",
+                "ty": "int"
+              }
+            ],
+            "markers": [],
+            "nm": "str",
+            "op": "int",
+            "props": {},
+            "v": "str",
+            "w": "int"
+          }
+        }
+      ]
+    }
+  ],
+  "code_endpoint_inventory": [
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "gojek_accounts",
+      "endpoint_key": "accounts.goto-products.com/",
+      "host": "accounts.goto-products.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/liangshilin-gopay_account_auto",
+      "category": "gojek_accounts",
+      "endpoint_key": "accounts.goto-products.com/",
+      "host": "accounts.goto-products.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "gojek_api",
+      "endpoint_key": "api.gojekapi.com/",
+      "host": "api.gojekapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/liangshilin-gopay_account_auto",
+      "category": "gojek_api",
+      "endpoint_key": "api.gojekapi.com/",
+      "host": "api.gojekapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "gojek_signup_otp",
+      "endpoint_key": "accounts.goto-products.com/cvs/v1/verify",
+      "host": "accounts.goto-products.com",
+      "path": "/cvs/v1/verify"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "gopay_app",
+      "endpoint_key": "customer.gopayapi.com/",
+      "host": "customer.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/liangshilin-gopay_account_auto",
+      "category": "gopay_app",
+      "endpoint_key": "customer.gopayapi.com/",
+      "host": "customer.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/liangshilin-gopay_account_auto",
+      "category": "gopay_app",
+      "endpoint_key": "customer.gopayapi.com/api/v1/festival-envelopes/claim",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v1/festival-envelopes/claim"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_app",
+      "endpoint_key": "customer.gopayapi.com/api/v1/users/pin/tokens/nb",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v1/users/pin/tokens/nb"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_app",
+      "endpoint_key": "customer.gopayapi.com/api/v1/users/pin/tokens/nb",
+      "host": "customer.gopayapi.com",
+      "path": "/api/v1/users/pin/tokens/nb"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "gopay_app",
+      "endpoint_key": "customer.gopayapi.com/v1/users/profile",
+      "host": "customer.gopayapi.com",
+      "path": "/v1/users/profile"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "gopay_app",
+      "endpoint_key": "gwa.gopayapi.com/",
+      "host": "gwa.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_app",
+      "endpoint_key": "merchants-gws-app.gopayapi.com/",
+      "host": "merchants-gws-app.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "gopay_app",
+      "endpoint_key": "merchants-gws-app.gopayapi.com/",
+      "host": "merchants-gws-app.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_app",
+      "endpoint_key": "merchants-gws-app.gopayapi.com/",
+      "host": "merchants-gws-app.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_app",
+      "endpoint_key": "merchants-gws-app.gopayapi.com/app/authorize",
+      "host": "merchants-gws-app.gopayapi.com",
+      "path": "/app/authorize"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_app",
+      "endpoint_key": "merchants-gws-app.gopayapi.com/app/challenge",
+      "host": "merchants-gws-app.gopayapi.com",
+      "path": "/app/challenge"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_app",
+      "endpoint_key": "pin-web-client.gopayapi.com/",
+      "host": "pin-web-client.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "gopay_app",
+      "endpoint_key": "pin-web-client.gopayapi.com/",
+      "host": "pin-web-client.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_app",
+      "endpoint_key": "pin-web-client.gopayapi.com/",
+      "host": "pin-web-client.gopayapi.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_app",
+      "endpoint_key": "pin-web-client.gopayapi.com/auth/pin/verify",
+      "host": "pin-web-client.gopayapi.com",
+      "path": "/auth/pin/verify"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/linking/user-consent",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/linking/user-consent"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/linking/user-consent",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/linking/user-consent"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-otp",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/linking/validate-otp"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-otp",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/linking/validate-otp"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-pin",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/linking/validate-pin"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-pin",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/linking/validate-pin"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-reference",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/linking/validate-reference"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-reference",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/linking/validate-reference"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/payment/confirm",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/payment/confirm"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/payment/confirm",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/payment/confirm"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/payment/process",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/payment/process"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/payment/process",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/payment/process"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/payment/validate",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/payment/validate"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "gopay_payment",
+      "endpoint_key": "gwa.gopayapi.com/v1/payment/validate",
+      "host": "gwa.gopayapi.com",
+      "path": "/v1/payment/validate"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/",
+      "host": "app.midtrans.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/",
+      "host": "app.midtrans.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/",
+      "host": "app.midtrans.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v1/promos/{snap_token}/search",
+      "host": "app.midtrans.com",
+      "path": "/snap/v1/promos/{snap_token}/search"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v1/transactions/{SNAP_TOKEN}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v1/transactions/{SNAP_TOKEN}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v1/transactions/{snap_token}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v1/transactions/{snap_token}"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v1/transactions/{snap_token}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v1/transactions/{snap_token}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v1/transactions/{snap_token}/status",
+      "host": "app.midtrans.com",
+      "path": "/snap/v1/transactions/{snap_token}/status"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v1/transactions/{snap_token}/status",
+      "host": "app.midtrans.com",
+      "path": "/snap/v1/transactions/{snap_token}/status"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v2/transactions/{SNAP_TOKEN}/charge",
+      "host": "app.midtrans.com",
+      "path": "/snap/v2/transactions/{SNAP_TOKEN}/charge"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v2/transactions/{snap_token}/charge",
+      "host": "app.midtrans.com",
+      "path": "/snap/v2/transactions/{snap_token}/charge"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v2/transactions/{snap_token}/charge",
+      "host": "app.midtrans.com",
+      "path": "/snap/v2/transactions/{snap_token}/charge"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v3/accounts/tok/linking",
+      "host": "app.midtrans.com",
+      "path": "/snap/v3/accounts/tok/linking"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v3/accounts/{SNAP_TOKEN}/linking",
+      "host": "app.midtrans.com",
+      "path": "/snap/v3/accounts/{SNAP_TOKEN}/linking"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v3/accounts/{snap_token}/linking",
+      "host": "app.midtrans.com",
+      "path": "/snap/v3/accounts/{snap_token}/linking"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v3/accounts/{snap_token}/linking",
+      "host": "app.midtrans.com",
+      "path": "/snap/v3/accounts/{snap_token}/linking"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v3/callback/gopay/linking/{LINKING_ID}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v3/callback/gopay/linking/{LINKING_ID}"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v3/experiment",
+      "host": "app.midtrans.com",
+      "path": "/snap/v3/experiment"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v4/redirection/",
+      "host": "app.midtrans.com",
+      "path": "/snap/v4/redirection/"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v4/redirection/6d99b822-286e-504e-8dac-728ec5a62ae8",
+      "host": "app.midtrans.com",
+      "path": "/snap/v4/redirection/6d99b822-286e-504e-8dac-728ec5a62ae8"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v4/redirection/{SNAP_TOKEN}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v4/redirection/{SNAP_TOKEN}"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v4/redirection/{snap_id}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v4/redirection/{snap_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v4/redirection/{snap_token}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v4/redirection/{snap_token}"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v4/redirection/{snap_token}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v4/redirection/{snap_token}"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v4/redirection/{snap}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v4/redirection/{snap}"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "midtrans",
+      "endpoint_key": "app.midtrans.com/snap/v4/redirection/{transaction_uuid}",
+      "host": "app.midtrans.com",
+      "path": "/snap/v4/redirection/{transaction_uuid}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "midtrans",
+      "endpoint_key": "merchants-app.midtrans.com/v4/qris/gopay/{ref}/qr-code",
+      "host": "merchants-app.midtrans.com",
+      "path": "/v4/qris/gopay/{ref}/qr-code"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "api.openai.com/auth",
+      "host": "api.openai.com",
+      "path": "/auth"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "api.openai.com/auth",
+      "host": "api.openai.com",
+      "path": "/auth"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "api.openai.com/profile",
+      "host": "api.openai.com",
+      "path": "/profile"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "api.openai.com/v1",
+      "host": "api.openai.com",
+      "path": "/v1"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "api.openai.com/v1/chat/completions",
+      "host": "api.openai.com",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/",
+      "host": "auth.openai.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/",
+      "host": "auth.openai.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/about-you",
+      "host": "auth.openai.com",
+      "path": "/about-you"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/add-phone",
+      "host": "auth.openai.com",
+      "path": "/add-phone"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/add-phone/send",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/add-phone/send"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/authorize/continue",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/authorize/continue"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/client_auth_session_dump",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/client_auth_session_dump"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/create_account",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/create_account"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/email-otp/resend",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/email-otp/resend"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/email-otp/send",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/email-otp/send"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/email-otp/validate",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/email-otp/validate"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/password/verify",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/password/verify"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/passwordless/send-otp",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/passwordless/send-otp"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/phone-otp/resend",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/phone-otp/resend"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/phone-otp/validate",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/phone-otp/validate"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/session/select",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/session/select"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/user/register",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/user/register"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/api/accounts/workspace/select",
+      "host": "auth.openai.com",
+      "path": "/api/accounts/workspace/select"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/choose-an-account",
+      "host": "auth.openai.com",
+      "path": "/choose-an-account"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/create-account",
+      "host": "auth.openai.com",
+      "path": "/create-account"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/create-account/password",
+      "host": "auth.openai.com",
+      "path": "/create-account/password"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/email-verification",
+      "host": "auth.openai.com",
+      "path": "/email-verification"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/log-in",
+      "host": "auth.openai.com",
+      "path": "/log-in"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/log-in/password",
+      "host": "auth.openai.com",
+      "path": "/log-in/password"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/oauth/authorize",
+      "host": "auth.openai.com",
+      "path": "/oauth/authorize"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/oauth/authorize",
+      "host": "auth.openai.com",
+      "path": "/oauth/authorize"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/oauth/token",
+      "host": "auth.openai.com",
+      "path": "/oauth/token"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/oauth/token",
+      "host": "auth.openai.com",
+      "path": "/oauth/token"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/phone-verification",
+      "host": "auth.openai.com",
+      "path": "/phone-verification"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "auth.openai.com/sign-in-with-chatgpt/codex/consent",
+      "host": "auth.openai.com",
+      "path": "/sign-in-with-chatgpt/codex/consent"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "chat.openai.com/",
+      "host": "chat.openai.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/",
+      "host": "chatgpt.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/",
+      "host": "chatgpt.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/",
+      "host": "chatgpt.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/admin",
+      "host": "chatgpt.com",
+      "path": "/admin"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/api/auth/callback/openai",
+      "host": "chatgpt.com",
+      "path": "/api/auth/callback/openai"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/api/auth/csrf",
+      "host": "chatgpt.com",
+      "path": "/api/auth/csrf"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/api/auth/session",
+      "host": "chatgpt.com",
+      "path": "/api/auth/session"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/api/auth/session",
+      "host": "chatgpt.com",
+      "path": "/api/auth/session"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/api/auth/signin/openai",
+      "host": "chatgpt.com",
+      "path": "/api/auth/signin/openai"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/auth/login",
+      "host": "chatgpt.com",
+      "path": "/auth/login"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/auth/login",
+      "host": "chatgpt.com",
+      "path": "/auth/login"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/accounts/check/v4-2023-04-27",
+      "host": "chatgpt.com",
+      "path": "/backend-api/accounts/check/v4-2023-04-27"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/accounts/domain-density-eligibility",
+      "host": "chatgpt.com",
+      "path": "/backend-api/accounts/domain-density-eligibility"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/accounts/{team_id}/invites",
+      "host": "chatgpt.com",
+      "path": "/backend-api/accounts/{team_id}/invites"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/accounts/{team_id}/invites/accept",
+      "host": "chatgpt.com",
+      "path": "/backend-api/accounts/{team_id}/invites/accept"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/accounts/{team_id}/invites/accept。",
+      "host": "chatgpt.com",
+      "path": "/backend-api/accounts/{team_id}/invites/accept。"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/accounts/{team_id}/invites，body",
+      "host": "chatgpt.com",
+      "path": "/backend-api/accounts/{team_id}/invites，body"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/apps/sources_dropdown",
+      "host": "chatgpt.com",
+      "path": "/backend-api/apps/sources_dropdown"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/beacons/home",
+      "host": "chatgpt.com",
+      "path": "/backend-api/beacons/home"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/checkout_pricing_config/configs/ID",
+      "host": "chatgpt.com",
+      "path": "/backend-api/checkout_pricing_config/configs/ID"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/checkout_pricing_config/configs/{billing_country}",
+      "host": "chatgpt.com",
+      "path": "/backend-api/checkout_pricing_config/configs/{billing_country}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/checkout_pricing_config/countries",
+      "host": "chatgpt.com",
+      "path": "/backend-api/checkout_pricing_config/countries"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/conversation/init",
+      "host": "chatgpt.com",
+      "path": "/backend-api/conversation/init"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/me",
+      "host": "chatgpt.com",
+      "path": "/backend-api/me"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/me",
+      "host": "chatgpt.com",
+      "path": "/backend-api/me"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/payments/checkout",
+      "host": "chatgpt.com",
+      "path": "/backend-api/payments/checkout"
+    },
+    {
+      "root": "/Users/username/Downloads/gopay-deploy",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/payments/checkout",
+      "host": "chatgpt.com",
+      "path": "/backend-api/payments/checkout"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/payments/checkout",
+      "host": "chatgpt.com",
+      "path": "/backend-api/payments/checkout"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/payments/checkout",
+      "host": "chatgpt.com",
+      "path": "/backend-api/payments/checkout"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/payments/checkout/approve",
+      "host": "chatgpt.com",
+      "path": "/backend-api/payments/checkout/approve"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/payments/checkout/approve",
+      "host": "chatgpt.com",
+      "path": "/backend-api/payments/checkout/approve"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/promo_campaign/check_coupon",
+      "host": "chatgpt.com",
+      "path": "/backend-api/promo_campaign/check_coupon"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/sentinel/frame.html",
+      "host": "chatgpt.com",
+      "path": "/backend-api/sentinel/frame.html"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/sentinel/ping",
+      "host": "chatgpt.com",
+      "path": "/backend-api/sentinel/ping"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/sentinel/ping",
+      "host": "chatgpt.com",
+      "path": "/backend-api/sentinel/ping"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/sentinel/req",
+      "host": "chatgpt.com",
+      "path": "/backend-api/sentinel/req"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/subscriptions/checkout",
+      "host": "chatgpt.com",
+      "path": "/backend-api/subscriptions/checkout"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/backend-api/user_segments",
+      "host": "chatgpt.com",
+      "path": "/backend-api/user_segments"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/openai_llc/cs_live_forced",
+      "host": "chatgpt.com",
+      "path": "/checkout/openai_llc/cs_live_forced"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/openai_llc/cs_live_long",
+      "host": "chatgpt.com",
+      "path": "/checkout/openai_llc/cs_live_long"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/openai_llc/cs_live_short",
+      "host": "chatgpt.com",
+      "path": "/checkout/openai_llc/cs_live_short"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/openai_llc/cs_live_xxx",
+      "host": "chatgpt.com",
+      "path": "/checkout/openai_llc/cs_live_xxx"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/verify",
+      "host": "chatgpt.com",
+      "path": "/checkout/verify"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/verify",
+      "host": "chatgpt.com",
+      "path": "/checkout/verify"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/{processor_entity}/{checkout_session_id}",
+      "host": "chatgpt.com",
+      "path": "/checkout/{processor_entity}/{checkout_session_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/{processor_entity}/{cs_id}",
+      "host": "chatgpt.com",
+      "path": "/checkout/{processor_entity}/{cs_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/{processor_entity}/{cs_live...}",
+      "host": "chatgpt.com",
+      "path": "/checkout/{processor_entity}/{cs_live...}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/{processor_entity}/{session_id}",
+      "host": "chatgpt.com",
+      "path": "/checkout/{processor_entity}/{session_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/{processor_entity}/{session_id}.data",
+      "host": "chatgpt.com",
+      "path": "/checkout/{processor_entity}/{session_id}.data"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/checkout/{self.processor_entity}/{self.checkout_session_id}",
+      "host": "chatgpt.com",
+      "path": "/checkout/{self.processor_entity}/{self.checkout_session_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "chatgpt.com/realtime/status",
+      "host": "chatgpt.com",
+      "path": "/realtime/status"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "openai.com/security/disclosure/",
+      "host": "openai.com",
+      "path": "/security/disclosure/"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "openai_checkout",
+      "endpoint_key": "pay.openai.com/",
+      "host": "pay.openai.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "openai_checkout",
+      "endpoint_key": "pay.openai.com/c/pay/cs_live_",
+      "host": "pay.openai.com",
+      "path": "/c/pay/cs_live_"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "openai_checkout",
+      "endpoint_key": "pay.openai.com/c/pay/cs_live_a1h5o8fRSk1eYWv1dTInNb9nbmCMpSq34emfzP83tFg1TjhHfn5UH1QxjA",
+      "host": "pay.openai.com",
+      "path": "/c/pay/cs_live_a1h5o8fRSk1eYWv1dTInNb9nbmCMpSq34emfzP83tFg1TjhHfn5UH1QxjA"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "pay.openai.com/c/pay/cs_live_forced",
+      "host": "pay.openai.com",
+      "path": "/c/pay/cs_live_forced"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "pay.openai.com/c/pay/cs_live_long",
+      "host": "pay.openai.com",
+      "path": "/c/pay/cs_live_long"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "pay.openai.com/c/pay/cs_live_short",
+      "host": "pay.openai.com",
+      "path": "/c/pay/cs_live_short"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "sentinel.openai.com/",
+      "host": "sentinel.openai.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "sentinel.openai.com/backend-api/sentinel/frame.html",
+      "host": "sentinel.openai.com",
+      "path": "/backend-api/sentinel/frame.html"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "sentinel.openai.com/backend-api/sentinel/req",
+      "host": "sentinel.openai.com",
+      "path": "/backend-api/sentinel/req"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "sentinel.openai.com/sentinel/20260124ceb8/sdk.js",
+      "host": "sentinel.openai.com",
+      "path": "/sentinel/20260124ceb8/sdk.js"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "openai_checkout",
+      "endpoint_key": "sentinel.openai.com/sentinel/{SENTINEL_VERSION}/sdk.js",
+      "host": "sentinel.openai.com",
+      "path": "/sentinel/{SENTINEL_VERSION}/sdk.js"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "c.paypal.com/v1/r/d/b/p1",
+      "host": "c.paypal.com",
+      "path": "/v1/r/d/b/p1"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "c.paypal.com/v1/r/d/b/p2",
+      "host": "c.paypal.com",
+      "path": "/v1/r/d/b/p2"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "c.paypal.com/v1/r/d/b/w",
+      "host": "c.paypal.com",
+      "path": "/v1/r/d/b/w"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "c6.paypal.com/v1/r/d/b/p3",
+      "host": "c6.paypal.com",
+      "path": "/v1/r/d/b/p3"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "ddbm2.paypal.com/js/",
+      "host": "ddbm2.paypal.com",
+      "path": "/js/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "ddbm2.paypal.com/tags.js",
+      "host": "ddbm2.paypal.com",
+      "path": "/tags.js"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/",
+      "host": "www.paypal.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/",
+      "host": "www.paypal.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/agreements/approve",
+      "host": "www.paypal.com",
+      "path": "/agreements/approve"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/agreements/approve",
+      "host": "www.paypal.com",
+      "path": "/agreements/approve"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/auth/verifygrcadenterprise",
+      "host": "www.paypal.com",
+      "path": "/auth/verifygrcadenterprise"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/authflow/challenges/email",
+      "host": "www.paypal.com",
+      "path": "/authflow/challenges/email"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/checkoutweb/signup",
+      "host": "www.paypal.com",
+      "path": "/checkoutweb/signup"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/checkoutweb/signup",
+      "host": "www.paypal.com",
+      "path": "/checkoutweb/signup"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/checkoutweb/signup**",
+      "host": "www.paypal.com",
+      "path": "/checkoutweb/signup**"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/graphql/",
+      "host": "www.paypal.com",
+      "path": "/graphql/"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/pay",
+      "host": "www.paypal.com",
+      "path": "/pay"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/recaptcha-bridge",
+      "host": "www.paypal.com",
+      "path": "/recaptcha-bridge"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/signin",
+      "host": "www.paypal.com",
+      "path": "/signin"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/signin/load-resource",
+      "host": "www.paypal.com",
+      "path": "/signin/load-resource"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/signin/return",
+      "host": "www.paypal.com",
+      "path": "/signin/return"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/signin/ud-token",
+      "host": "www.paypal.com",
+      "path": "/signin/ud-token"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "paypal",
+      "endpoint_key": "www.paypal.com/webapps/hermes",
+      "host": "www.paypal.com",
+      "path": "/webapps/hermes"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "sms_provider",
+      "endpoint_key": "5sim.net/docs",
+      "host": "5sim.net",
+      "path": "/docs"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "sms_provider",
+      "endpoint_key": "5sim.net/settings/security",
+      "host": "5sim.net",
+      "path": "/settings/security"
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "category": "sms_provider",
+      "endpoint_key": "5sim.net/v1",
+      "host": "5sim.net",
+      "path": "/v1"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "sms_provider",
+      "endpoint_key": "5sim.net/v1/user/check/{order_id}",
+      "host": "5sim.net",
+      "path": "/v1/user/check/{order_id}"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "sms_provider",
+      "endpoint_key": "api.herosms.com/",
+      "host": "api.herosms.com",
+      "path": "/"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "sms_provider",
+      "endpoint_key": "api.herosms.com/api/get_sms",
+      "host": "api.herosms.com",
+      "path": "/api/get_sms"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "sms_provider",
+      "endpoint_key": "api.sms-activate.org/stubs/handler_api.php",
+      "host": "api.sms-activate.org",
+      "path": "/stubs/handler_api.php"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/",
+      "host": "api.stripe.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_methods",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_methods"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_methods",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_methods"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{CS_ID}",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{CS_ID}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{CS_ID}/confirm",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{CS_ID}/confirm"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{CS_ID}/init",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{CS_ID}/init"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{cs_id}",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{cs_id}"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{cs_id}",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{cs_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{cs_id}/confirm",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{cs_id}/confirm"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{cs_id}/confirm",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{cs_id}/confirm"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{cs_id}/init",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{cs_id}/init"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{cs_id}/init",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{cs_id}/init"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{cs}/confirm",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{cs}/confirm"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{cs}/init",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{cs}/init"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/payment_pages/{session_id}",
+      "host": "api.stripe.com",
+      "path": "/v1/payment_pages/{session_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "api.stripe.com/v1/setup_intents/.../verify_challenge",
+      "host": "api.stripe.com",
+      "path": "/v1/setup_intents/.../verify_challenge"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "checkout.stripe.com/",
+      "host": "checkout.stripe.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "checkout.stripe.com/c/pay/cs_live_",
+      "host": "checkout.stripe.com",
+      "path": "/c/pay/cs_live_"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "checkout.stripe.com/c/pay/cs_live_xxx",
+      "host": "checkout.stripe.com",
+      "path": "/c/pay/cs_live_xxx"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "checkout.stripe.com/c/pay/{cs_id}",
+      "host": "checkout.stripe.com",
+      "path": "/c/pay/{cs_id}"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "stripe",
+      "endpoint_key": "checkout.stripe.com/c/pay/{cs_id}",
+      "host": "checkout.stripe.com",
+      "path": "/c/pay/{cs_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "checkout.stripe.com/c/pay/{session_id}",
+      "host": "checkout.stripe.com",
+      "path": "/c/pay/{session_id}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "js.stripe.com/",
+      "host": "js.stripe.com",
+      "path": "/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "js.stripe.com/**",
+      "host": "js.stripe.com",
+      "path": "/**"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "m.stripe.com/6",
+      "host": "m.stripe.com",
+      "path": "/6"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "merchant-ui-api.stripe.com/link/get-cookie",
+      "host": "merchant-ui-api.stripe.com",
+      "path": "/link/get-cookie"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "merchant-ui-api.stripe.com/link/set-cookie",
+      "host": "merchant-ui-api.stripe.com",
+      "path": "/link/set-cookie"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "pm-redirects.stripe.com/authorize/",
+      "host": "pm-redirects.stripe.com",
+      "path": "/authorize/"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "pm-redirects.stripe.com/authorize/acct_test/sa_nonce_{SNAP_TOKEN[:10",
+      "host": "pm-redirects.stripe.com",
+      "path": "/authorize/acct_test/sa_nonce_{SNAP_TOKEN[:10"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "pm-redirects.stripe.com/authorize/{acct}/{nonce}",
+      "host": "pm-redirects.stripe.com",
+      "path": "/authorize/{acct}/{nonce}"
+    },
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "category": "stripe",
+      "endpoint_key": "pm-redirects.stripe.com/authorize/{acct}/{nonce}",
+      "host": "pm-redirects.stripe.com",
+      "path": "/authorize/{acct}/{nonce}"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "r.stripe.com/b",
+      "host": "r.stripe.com",
+      "path": "/b"
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "category": "stripe",
+      "endpoint_key": "stripe.com/.well-known/security.txt",
+      "host": "stripe.com",
+      "path": "/.well-known/security.txt"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "phone": "+620000000000",
+    "local": "00000000000",
+    "pin": "000000",
+    "activation_id": "000000000",
+    "customer_id": "000000000",
+    "account_id": "000000000",
+    "device_token": "REDACTED:REDACTED_TOKEN",
+    "device_uniqueid": "0000000000000000",
+    "device_session_id": "00000000-0000-0000-0000-000000000000",
+    "access_token": "REDACTED_ACCESS_TOKEN",
+    "refresh_token": "REDACTED_REFRESH_TOKEN",
+    "proxy": "socks5://REDACTED:REDACTED@proxy.example.com:1080",
+    "registered_at": "1970-01-01T00:00:00Z",
+    "balance": 0,
+    "payment_fingerprint": {
+      "_note": "REDACTED - fingerprint profile details removed"
+    },
+    "last_reward_claim_at": "1970-01-01T00:00:00Z"
+  }
+]

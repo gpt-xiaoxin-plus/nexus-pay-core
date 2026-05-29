@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: opai-gopay-protocol
+Version: 0.2.0
+Requires-Python: >=3.11
+Requires-Dist: tls_client>=1.0
+Requires-Dist: typing_extensions>=4.8

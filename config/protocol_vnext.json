@@ -1,0 +1,1352 @@
+{
+  "version": "gopay-protocol-vnext-2026-05-29",
+  "generated_at": "2026-05-28T16:35:11Z",
+  "mode": "offline_complete_protocol_profile",
+  "sources": {
+    "capture_xml": "/Users/username/Downloads/Telegram Lite/真机3",
+    "current_root": "/Users/username/Downloads/gopay-deploy",
+    "reference_root": "/tmp/Gopay_plus_automatic",
+    "reference_roots": [
+      "/tmp/Gopay_plus_automatic",
+      "/tmp/chatgpt-plus-automation-toolkit",
+      "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "/tmp/liangshilin-gopay_account_auto"
+    ]
+  },
+  "summary": {
+    "capture_total_items": 271,
+    "capture_total_endpoints": 46,
+    "code_endpoint_inventory": 224,
+    "capture_categories": {
+      "gojek_api": 11,
+      "gojek_auth": 2,
+      "gojek_customer": 6,
+      "gojek_signup_otp": 7,
+      "gojek_supporting": 7,
+      "gopay_app": 27,
+      "gopay_balance": 6,
+      "gopay_pin": 2,
+      "supporting": 203
+    }
+  },
+  "references": [
+    {
+      "root": "/tmp/Gopay_plus_automatic",
+      "files_scanned": 22,
+      "endpoint_keys": 39,
+      "paths": 34,
+      "capture_full_matches": 0,
+      "capture_path_matches": 0,
+      "matched_paths": []
+    },
+    {
+      "root": "/tmp/chatgpt-plus-automation-toolkit",
+      "files_scanned": 97,
+      "endpoint_keys": 18,
+      "paths": 23,
+      "capture_full_matches": 0,
+      "capture_path_matches": 0,
+      "matched_paths": []
+    },
+    {
+      "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+      "files_scanned": 1345,
+      "endpoint_keys": 149,
+      "paths": 237,
+      "capture_full_matches": 0,
+      "capture_path_matches": 0,
+      "matched_paths": []
+    },
+    {
+      "root": "/tmp/liangshilin-gopay_account_auto",
+      "files_scanned": 10,
+      "endpoint_keys": 4,
+      "paths": 9,
+      "capture_full_matches": 0,
+      "capture_path_matches": 7,
+      "matched_paths": [
+        "/api/v2/users/pins/setup/tokens",
+        "/cvs/v1/initiate",
+        "/cvs/v1/methods",
+        "/cvs/v1/verify",
+        "/goto-auth/login/methods",
+        "/goto-auth/token",
+        "/v7/customers/signup"
+      ]
+    }
+  ],
+  "flows": {
+    "registration": [
+      {
+        "id": "login_probe",
+        "method": "POST",
+        "path": "/goto-auth/login/methods",
+        "capture_backed": true,
+        "code_backed": false,
+        "capture": [
+          {
+            "endpoint": "POST accounts.goto-products.com/goto-auth/login/methods",
+            "method": "POST",
+            "host": "accounts.goto-products.com",
+            "path": "/goto-auth/login/methods",
+            "count": 1,
+            "statuses": {
+              "401": 1
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "Content-Length",
+              "accept-language",
+              "content-type",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "transaction-id",
+              "user-agent",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-authsdk-version",
+              "x-cvsdk-version",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-request-id",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "Date",
+              "RateLimit-Limit",
+              "RateLimit-Remaining",
+              "RateLimit-Reset",
+              "X-Kong-Proxy-Latency",
+              "X-Kong-Upstream-Latency",
+              "X-RateLimit-Limit-Day",
+              "X-RateLimit-Limit-Hour",
+              "X-RateLimit-Remaining-Day",
+              "X-RateLimit-Remaining-Hour",
+              "request-id",
+              "server",
+              "service-request-id",
+              "transaction-id",
+              "vary",
+              "x-envoy-upstream-service-time",
+              "x-service-error",
+              "x-tencent"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "client_id": "str",
+                  "client_secret": "str",
+                  "country_code": "str",
+                  "device_verification_token_id": "str",
+                  "email": "str",
+                  "phone_number": "str"
+                }
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": "null",
+                  "errors": [
+                    {
+                      "code": "str",
+                      "message": "str",
+                      "message_title": "str"
+                    }
+                  ],
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": []
+      },
+      {
+        "id": "signup_otp_methods",
+        "method": "POST",
+        "path": "/cvs/v1/methods",
+        "capture_backed": true,
+        "code_backed": false,
+        "capture": [
+          {
+            "endpoint": "POST accounts.goto-products.com/cvs/v1/methods",
+            "method": "POST",
+            "host": "accounts.goto-products.com",
+            "path": "/cvs/v1/methods",
+            "count": 2,
+            "statuses": {
+              "200": 2
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "Content-Length",
+              "accept-language",
+              "authorization",
+              "content-type",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "transaction-id",
+              "user-agent",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-authsdk-version",
+              "x-cvsdk-version",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-request-id",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "Date",
+              "RateLimit-Limit",
+              "RateLimit-Remaining",
+              "RateLimit-Reset",
+              "X-Kong-Proxy-Latency",
+              "X-Kong-Upstream-Latency",
+              "X-RateLimit-Limit-Day",
+              "X-RateLimit-Limit-Hour",
+              "X-RateLimit-Remaining-Day",
+              "X-RateLimit-Remaining-Hour",
+              "access-control-allow-credentials",
+              "access-control-allow-origin",
+              "request-id",
+              "server",
+              "transaction-id",
+              "vary",
+              "x-envoy-upstream-service-time",
+              "x-tencent"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "client_id": "str",
+                  "client_secret": "str",
+                  "country_code": "str",
+                  "device_verification_token_id": "null",
+                  "email_address": "null",
+                  "flow": "str",
+                  "phone_number": "str"
+                }
+              },
+              {
+                "kind": "json",
+                "shape": {
+                  "client_id": "str",
+                  "client_secret": "str",
+                  "country_code": "null",
+                  "device_verification_token_id": "null",
+                  "email_address": "null",
+                  "flow": "str",
+                  "phone_number": "null"
+                }
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": {
+                    "default_method": "str",
+                    "methods": [
+                      "str"
+                    ],
+                    "verification_id": "str"
+                  },
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": []
+      },
+      {
+        "id": "signup_otp_initiate",
+        "method": "POST",
+        "path": "/cvs/v1/initiate",
+        "capture_backed": true,
+        "code_backed": false,
+        "capture": [
+          {
+            "endpoint": "POST accounts.goto-products.com/cvs/v1/initiate",
+            "method": "POST",
+            "host": "accounts.goto-products.com",
+            "path": "/cvs/v1/initiate",
+            "count": 3,
+            "statuses": {
+              "200": 3
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "Content-Length",
+              "accept-language",
+              "authorization",
+              "content-type",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "key",
+              "transaction-id",
+              "user-agent",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-authsdk-version",
+              "x-cvsdk-version",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-request-id",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "Date",
+              "RateLimit-Limit",
+              "RateLimit-Remaining",
+              "RateLimit-Reset",
+              "X-Kong-Proxy-Latency",
+              "X-Kong-Upstream-Latency",
+              "X-RateLimit-Limit-Day",
+              "X-RateLimit-Limit-Hour",
+              "X-RateLimit-Remaining-Day",
+              "X-RateLimit-Remaining-Hour",
+              "access-control-allow-credentials",
+              "access-control-allow-origin",
+              "request-id",
+              "server",
+              "transaction-id",
+              "vary",
+              "x-envoy-upstream-service-time",
+              "x-tencent"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "client_id": "str",
+                  "client_secret": "str",
+                  "country_code": "str",
+                  "device_verification_token_id": "null",
+                  "email_address": "null",
+                  "flow": "str",
+                  "is_multiple_method": "null",
+                  "phone_number": "str",
+                  "verification_id": "str",
+                  "verification_method": "str"
+                }
+              },
+              {
+                "kind": "json",
+                "shape": {
+                  "client_id": "str",
+                  "client_secret": "str",
+                  "country_code": "null",
+                  "device_verification_token_id": "null",
+                  "email_address": "null",
+                  "flow": "str",
+                  "is_multiple_method": "null",
+                  "phone_number": "null",
+                  "verification_id": "str",
+                  "verification_method": "str"
+                }
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": {
+                    "device_mapped_for_dbl": "bool",
+                    "fr_token_details": {
+                      "challenge_token": "str",
+                      "user_token": "str"
+                    },
+                    "metadata": {
+                      "phone": "str"
+                    },
+                    "otp_length": "int",
+                    "otp_token": "str",
+                    "retry_timer_in_seconds": [
+                      "int"
+                    ]
+                  },
+                  "success": "bool"
+                }
+              },
+              {
+                "kind": "json",
+                "shape": {
+                  "data": {
+                    "device_mapped_for_dbl": "bool",
+                    "fr_token_details": {
+                      "challenge_token": "str",
+                      "user_token": "str"
+                    },
+                    "metadata": {
+                      "phone": "str",
+                      "whatsapp_deeplink": "str"
+                    },
+                    "otp_length": "int",
+                    "otp_token": "str",
+                    "retry_timer_in_seconds": [
+                      "int"
+                    ]
+                  },
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": []
+      },
+      {
+        "id": "signup_otp_verify",
+        "method": "POST",
+        "path": "/cvs/v1/verify",
+        "capture_backed": true,
+        "code_backed": true,
+        "capture": [
+          {
+            "endpoint": "POST accounts.goto-products.com/cvs/v1/verify",
+            "method": "POST",
+            "host": "accounts.goto-products.com",
+            "path": "/cvs/v1/verify",
+            "count": 2,
+            "statuses": {
+              "200": 2
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "Content-Length",
+              "accept-language",
+              "content-type",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "transaction-id",
+              "user-agent",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-authsdk-version",
+              "x-cvsdk-version",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-request-id",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "Date",
+              "X-Kong-Proxy-Latency",
+              "X-Kong-Upstream-Latency",
+              "access-control-allow-credentials",
+              "access-control-allow-origin",
+              "request-id",
+              "server",
+              "transaction-id",
+              "vary",
+              "x-envoy-upstream-service-time",
+              "x-tencent"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "client_id": "str",
+                  "client_secret": "str",
+                  "data": {
+                    "otp": "str",
+                    "otp_token": "str"
+                  },
+                  "flow": "str",
+                  "verification_id": "str",
+                  "verification_method": "str"
+                }
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": {
+                    "verification_token": "str"
+                  },
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": [
+          {
+            "root": "/Users/username/Downloads/gopay-deploy",
+            "category": "gojek_signup_otp",
+            "endpoint_key": "accounts.goto-products.com/cvs/v1/verify",
+            "host": "accounts.goto-products.com",
+            "path": "/cvs/v1/verify"
+          }
+        ]
+      },
+      {
+        "id": "account_create",
+        "method": "POST",
+        "path": "/v7/customers/signup",
+        "capture_backed": true,
+        "code_backed": false,
+        "capture": [
+          {
+            "endpoint": "POST api.gojekapi.com/v7/customers/signup",
+            "method": "POST",
+            "host": "api.gojekapi.com",
+            "path": "/v7/customers/signup",
+            "count": 3,
+            "statuses": {
+              "400": 2,
+              "201": 1
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "Content-Length",
+              "accept-language",
+              "authorization",
+              "content-type",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "user-agent",
+              "verification-token",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "Date",
+              "X-Kong-Proxy-Latency",
+              "X-Kong-Upstream-Latency",
+              "request-id",
+              "server",
+              "vary",
+              "x-envoy-upstream-service-time",
+              "x-request-id",
+              "x-tencent"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "client_name": "str",
+                  "client_secret": "str",
+                  "data": {
+                    "email": "str",
+                    "name": "str",
+                    "onboarding_partner": "str",
+                    "phone": "str",
+                    "signed_up_country": "str"
+                  }
+                }
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": "null",
+                  "errors": [
+                    {
+                      "code": "str",
+                      "message": "str",
+                      "message_severity": "str",
+                      "message_title": "str"
+                    }
+                  ],
+                  "success": "bool"
+                }
+              },
+              {
+                "kind": "json",
+                "shape": {
+                  "data": {
+                    "access_token": "str",
+                    "customer": {
+                      "active": "bool",
+                      "bio": "null",
+                      "blacklisted": "bool",
+                      "chat_id": "null",
+                      "chat_token": "null",
+                      "country_code": "str",
+                      "created_at": "str",
+                      "created_by": "str",
+                      "dob": "null",
+                      "email": "null",
+                      "email_verified": "bool",
+                      "facebook_connected": "bool",
+                      "gopay_account_id": "null",
+                      "id": "int",
+                      "is_driver": "null",
+                      "locale": "str",
+                      "locale_selection_type": "null",
+                      "name": "str",
+                      "number": "str",
+                      "onboarding_partner": "str",
+                      "phone": "str",
+                      "phone_verified": "bool",
+                      "profile_image_url": "null",
+                      "sex": "null",
+                      "signed_up_country": "str",
+                      "toko_id": "null",
+                      "updated_at": "str",
+                      "wallet_id": "null"
+                    },
+                    "expires_in": "int",
+                    "refresh_token": "str",
+                    "resource_owner_id": "int",
+                    "resource_owner_type": "str",
+                    "scopes": "str"
+                  },
+                  "errors": "null",
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": []
+      },
+      {
+        "id": "token_exchange",
+        "method": "POST",
+        "path": "/goto-auth/token",
+        "capture_backed": true,
+        "code_backed": false,
+        "capture": [
+          {
+            "endpoint": "POST accounts.goto-products.com/goto-auth/token",
+            "method": "POST",
+            "host": "accounts.goto-products.com",
+            "path": "/goto-auth/token",
+            "count": 1,
+            "statuses": {
+              "201": 1
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "Content-Length",
+              "accept-language",
+              "authorization",
+              "content-type",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "user-agent",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-authsdk-version",
+              "x-cvsdk-version",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-request-id",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "Date",
+              "RateLimit-Limit",
+              "RateLimit-Remaining",
+              "RateLimit-Reset",
+              "X-Kong-Proxy-Latency",
+              "X-Kong-Upstream-Latency",
+              "X-RateLimit-Limit-Second",
+              "X-RateLimit-Remaining-Second",
+              "request-id",
+              "server",
+              "service-request-id",
+              "transaction-id",
+              "vary",
+              "x-envoy-upstream-service-time",
+              "x-tencent"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "client_id": "str",
+                  "client_secret": "str",
+                  "grant_type": "str",
+                  "token": "str"
+                }
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": {
+                    "access_token": "str",
+                    "flags": {
+                      "device_verification_enabled": "bool",
+                      "is_linking_success": "null",
+                      "onetap_eligible": "bool",
+                      "trusted_device_count": "int"
+                    },
+                    "refresh_token": "str",
+                    "user_type": "str"
+                  },
+                  "errors": [],
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": []
+      },
+      {
+        "id": "pin_setup",
+        "method": "POST",
+        "path": "/api/v2/users/pins/setup/tokens",
+        "capture_backed": true,
+        "code_backed": false,
+        "capture": [
+          {
+            "endpoint": "POST customer.gopayapi.com/api/v2/users/pins/setup/tokens",
+            "method": "POST",
+            "host": "customer.gopayapi.com",
+            "path": "/api/v2/users/pins/setup/tokens",
+            "count": 1,
+            "statuses": {
+              "200": 1
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "Content-Length",
+              "accept-language",
+              "authorization",
+              "content-type",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "is-token-required",
+              "user-agent",
+              "verification-token",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Cache-Control",
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "EagleId",
+              "Server",
+              "Set-Cookie",
+              "Timing-Allow-Origin",
+              "date",
+              "ratelimit-limit",
+              "ratelimit-remaining",
+              "ratelimit-reset",
+              "via",
+              "x-correlation-id",
+              "x-envoy-upstream-service-time",
+              "x-ratelimit-limit-second",
+              "x-ratelimit-remaining-second",
+              "x-site-cache-status"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "challenge_id": "str",
+                  "client_id": "str",
+                  "pin": "str"
+                }
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": {
+                    "token": "str"
+                  },
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": []
+      },
+      {
+        "id": "profile_check",
+        "method": "GET",
+        "path": "/v1/users/profile",
+        "capture_backed": true,
+        "code_backed": true,
+        "capture": [
+          {
+            "endpoint": "GET customer.gopayapi.com/v1/users/profile",
+            "method": "GET",
+            "host": "customer.gopayapi.com",
+            "path": "/v1/users/profile",
+            "count": 4,
+            "statuses": {
+              "200": 4
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "accept-language",
+              "authorization",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "user-agent",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Cache-Control",
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "EagleId",
+              "Server",
+              "Set-Cookie",
+              "Timing-Allow-Origin",
+              "date",
+              "ratelimit-limit",
+              "ratelimit-remaining",
+              "ratelimit-reset",
+              "via",
+              "x-correlation-id",
+              "x-envoy-upstream-service-time",
+              "x-ratelimit-limit-second",
+              "x-ratelimit-remaining-second",
+              "x-site-cache-status"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "empty"
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": {
+                    "blocked": "bool",
+                    "is_pin_setup": "bool",
+                    "qr_id": "str"
+                  },
+                  "errors": [],
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": [
+          {
+            "root": "/Users/username/Downloads/gopay-deploy",
+            "category": "gopay_app",
+            "endpoint_key": "customer.gopayapi.com/v1/users/profile",
+            "host": "customer.gopayapi.com",
+            "path": "/v1/users/profile"
+          }
+        ]
+      },
+      {
+        "id": "balance_poll",
+        "method": "GET",
+        "path": "/v1/payment-options/balances",
+        "capture_backed": true,
+        "code_backed": false,
+        "capture": [
+          {
+            "endpoint": "GET customer.gopayapi.com/v1/payment-options/balances",
+            "method": "GET",
+            "host": "customer.gopayapi.com",
+            "path": "/v1/payment-options/balances",
+            "count": 2,
+            "statuses": {
+              "200": 2
+            },
+            "request_header_names": [
+              "Accept-Encoding",
+              "Connection",
+              "accept-language",
+              "authorization",
+              "country-code",
+              "gojek-country-code",
+              "gojek-service-area",
+              "gojek-timezone",
+              "host",
+              "user-agent",
+              "x-appid",
+              "x-apptype",
+              "x-appversion",
+              "x-deviceos",
+              "x-devicetoken",
+              "x-e1",
+              "x-e2",
+              "x-help-version",
+              "x-m1",
+              "x-phonemake",
+              "x-phonemodel",
+              "x-platform",
+              "x-uniqueid",
+              "x-user-locale",
+              "x-user-type"
+            ],
+            "response_header_names": [
+              "Cache-Control",
+              "Connection",
+              "Content-Length",
+              "Content-Type",
+              "EagleId",
+              "Server",
+              "Set-Cookie",
+              "Timing-Allow-Origin",
+              "date",
+              "debug-id",
+              "ratelimit-limit",
+              "ratelimit-remaining",
+              "ratelimit-reset",
+              "via",
+              "x-appversion",
+              "x-envoy-upstream-service-time",
+              "x-ratelimit-limit-second",
+              "x-ratelimit-remaining-second",
+              "x-site-cache-status"
+            ],
+            "request_body_shapes": [
+              {
+                "kind": "empty"
+              }
+            ],
+            "response_body_shapes": [
+              {
+                "kind": "json",
+                "shape": {
+                  "data": [
+                    {
+                      "balance": {
+                        "currency": "str",
+                        "display_value": "str",
+                        "value": "int"
+                      },
+                      "country_code": "str",
+                      "token": "str",
+                      "type": "str"
+                    }
+                  ],
+                  "success": "bool"
+                }
+              }
+            ]
+          }
+        ],
+        "code": []
+      }
+    ],
+    "payment": [
+      {
+        "id": "midtrans_linking",
+        "method": "POST",
+        "path": "/snap/v3/accounts/{snap_token}/linking",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Downloads/gopay-deploy",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v3/accounts/tok/linking",
+            "host": "app.midtrans.com",
+            "path": "/snap/v3/accounts/tok/linking"
+          },
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v3/accounts/{SNAP_TOKEN}/linking",
+            "host": "app.midtrans.com",
+            "path": "/snap/v3/accounts/{SNAP_TOKEN}/linking"
+          },
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v3/accounts/{snap_token}/linking",
+            "host": "app.midtrans.com",
+            "path": "/snap/v3/accounts/{snap_token}/linking"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v3/accounts/{snap_token}/linking",
+            "host": "app.midtrans.com",
+            "path": "/snap/v3/accounts/{snap_token}/linking"
+          }
+        ]
+      },
+      {
+        "id": "gopay_validate_reference",
+        "method": "POST",
+        "path": "/v1/linking/validate-reference",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-reference",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/linking/validate-reference"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-reference",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/linking/validate-reference"
+          }
+        ]
+      },
+      {
+        "id": "gopay_user_consent",
+        "method": "POST",
+        "path": "/v1/linking/user-consent",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/linking/user-consent",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/linking/user-consent"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/linking/user-consent",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/linking/user-consent"
+          }
+        ]
+      },
+      {
+        "id": "gopay_validate_otp",
+        "method": "POST",
+        "path": "/v1/linking/validate-otp",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-otp",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/linking/validate-otp"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-otp",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/linking/validate-otp"
+          }
+        ]
+      },
+      {
+        "id": "gopay_validate_pin",
+        "method": "POST",
+        "path": "/v1/linking/validate-pin",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-pin",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/linking/validate-pin"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/linking/validate-pin",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/linking/validate-pin"
+          }
+        ]
+      },
+      {
+        "id": "midtrans_charge",
+        "method": "POST",
+        "path": "/snap/v2/transactions/{snap_token}/charge",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v2/transactions/{SNAP_TOKEN}/charge",
+            "host": "app.midtrans.com",
+            "path": "/snap/v2/transactions/{SNAP_TOKEN}/charge"
+          },
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v2/transactions/{snap_token}/charge",
+            "host": "app.midtrans.com",
+            "path": "/snap/v2/transactions/{snap_token}/charge"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v2/transactions/{snap_token}/charge",
+            "host": "app.midtrans.com",
+            "path": "/snap/v2/transactions/{snap_token}/charge"
+          }
+        ]
+      },
+      {
+        "id": "gopay_payment_validate",
+        "method": "GET",
+        "path": "/v1/payment/validate",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/payment/validate",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/payment/validate"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/payment/validate",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/payment/validate"
+          }
+        ]
+      },
+      {
+        "id": "gopay_payment_confirm",
+        "method": "POST",
+        "path": "/v1/payment/confirm",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/payment/confirm",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/payment/confirm"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/payment/confirm",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/payment/confirm"
+          }
+        ]
+      },
+      {
+        "id": "gopay_payment_process",
+        "method": "POST",
+        "path": "/v1/payment/process",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/payment/process",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/payment/process"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "gopay_payment",
+            "endpoint_key": "gwa.gopayapi.com/v1/payment/process",
+            "host": "gwa.gopayapi.com",
+            "path": "/v1/payment/process"
+          }
+        ]
+      },
+      {
+        "id": "midtrans_status",
+        "method": "GET",
+        "path": "/snap/v1/transactions/{snap_token}/status",
+        "capture_backed": false,
+        "code_backed": true,
+        "capture": [],
+        "code": [
+          {
+            "root": "/Users/username/Documents/Codex/2026-05-22/warning-don-t-paste-code-into/Gpt-Agreement-Payment",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v1/transactions/{snap_token}/status",
+            "host": "app.midtrans.com",
+            "path": "/snap/v1/transactions/{snap_token}/status"
+          },
+          {
+            "root": "/tmp/Gopay_plus_automatic",
+            "category": "midtrans",
+            "endpoint_key": "app.midtrans.com/snap/v1/transactions/{snap_token}/status",
+            "host": "app.midtrans.com",
+            "path": "/snap/v1/transactions/{snap_token}/status"
+          }
+        ]
+      }
+    ]
+  },
+  "missing": {
+    "registration": [],
+    "payment": []
+  }
+}
